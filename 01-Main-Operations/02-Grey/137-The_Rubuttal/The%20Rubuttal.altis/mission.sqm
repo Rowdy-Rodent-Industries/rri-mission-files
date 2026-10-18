@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=204;
+		nextID=298;
 	};
 	class Camera
 	{
-		pos[]={19894.469,130.15874,8477.9531};
-		dir[]={-0.8854394,-0.45783344,0.080767214};
-		up[]={-0.45602819,0.88900089,0.041599017};
-		aside[]={0.090842888,4.627509e-08,0.99592143};
+		pos[]={11412.157,1562.3628,23903.283};
+		dir[]={-0.31293845,-0.94710869,-0.071708985};
+		up[]={-0.92315853,0.32099786,-0.2115397};
+		aside[]={-0.22336836,-1.6893609e-06,0.97477412};
 	};
 };
 binarizationWanted=0;
@@ -735,19 +735,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -767,6 +754,19 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=0;
 				};
 			};
 		};
@@ -46379,7 +46379,7 @@ class Mission
 												{
 													dataType="Trigger";
 													position[]={11677.779,1423.2866,23899.527};
-													angle=1.5737941;
+													angle=1.573794;
 													class Attributes
 													{
 														text="Aperture changer Main";
@@ -46400,7 +46400,7 @@ class Mission
 												{
 													dataType="Trigger";
 													position[]={11505.305,1609.1548,23935.824};
-													angle=1.5737941;
+													angle=1.573794;
 													class Attributes
 													{
 														text="Aperture changer Bridge";
@@ -52403,7 +52403,7 @@ class Mission
 																	side="West";
 																	class Entities
 																	{
-																		items=4;
+																		items=5;
 																		class Item0
 																		{
 																			dataType="Object";
@@ -53337,32 +53337,19 @@ class Mission
 																				nAttributes=17;
 																			};
 																		};
-																	};
-																	class Attributes
-																	{
-																	};
-																	id=3261;
-																};
-																class Item2
-																{
-																	dataType="Group";
-																	side="West";
-																	class Entities
-																	{
-																		items=2;
-																		class Item0
+																		class Item4
 																		{
 																			dataType="Object";
 																			class PositionInfo
 																			{
-																				position[]={11496.771,1613.9385,23948.531};
-																				angles[]={0,0.0029983683,0};
+																				position[]={11496.771,1613.939,23948.531};
+																				angles[]={0,0.0030019663,0};
 																			};
 																			side="West";
-																			flags=7;
+																			flags=5;
 																			class Attributes
 																			{
-																				description="Haran 1 -  Brigade Advisor @Special Operations Command";
+																				description="Alor 5 - S-Shop Commander";
 																				isPlayable=1;
 																				class Inventory
 																				{
@@ -53380,167 +53367,7 @@ class Mission
 																			};
 																			id=3267;
 																			type="B_officer_F";
-																			atlOffset=0.0014648438;
-																			class CustomAttributes
-																			{
-																				class Attribute0
-																				{
-																					property="mti_common_resistance_stun";
-																					expression="_this setVariable [""mti_common_resistance_stun"", true];";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="BOOL";
-																							value=1;
-																						};
-																					};
-																				};
-																				class Attribute1
-																				{
-																					property="ace_isEngineer";
-																					expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="SCALAR";
-																							value=2;
-																						};
-																					};
-																				};
-																				class Attribute2
-																				{
-																					property="mti_common_Pilot";
-																					expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="BOOL";
-																							value=1;
-																						};
-																					};
-																				};
-																				class Attribute3
-																				{
-																					property="mti_common_resistance_ion";
-																					expression="_this setVariable [""mti_common_resistance_ion"", true];";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="BOOL";
-																							value=0;
-																						};
-																					};
-																				};
-																				class Attribute4
-																				{
-																					property="ace_isEOD";
-																					expression="_this setVariable ['ACE_isEOD', _value, true]";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="BOOL";
-																							value=1;
-																						};
-																					};
-																				};
-																				class Attribute5
-																				{
-																					property="pitch";
-																					expression="_this setpitch _value;";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="SCALAR";
-																							value=0.95999998;
-																						};
-																					};
-																				};
-																				class Attribute6
-																				{
-																					property="speaker";
-																					expression="_this setspeaker _value;";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="STRING";
-																							value="Male09ENG";
-																						};
-																					};
-																				};
-																				class Attribute7
-																				{
-																					property="ace_isMedic";
-																					expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="SCALAR";
-																							value=2;
-																						};
-																					};
-																				};
-																				class Attribute8
-																				{
-																					property="ace_advanced_fatigue_performanceFactor";
-																					expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="SCALAR";
-																							value=1;
-																						};
-																					};
-																				};
-																				class Attribute9
-																				{
-																					property="mti_common_Group_Preset";
-																					expression="[_this, _value] call mti_common_fnc_initPlayer";
-																					class Value
-																					{
-																						class data
-																						{
-																							singleType="SCALAR";
-																							value=1;
-																						};
-																					};
-																				};
-																				nAttributes=10;
-																			};
-																		};
-																		class Item1
-																		{
-																			dataType="Object";
-																			class PositionInfo
-																			{
-																				position[]={11496.629,1613.9385,23947.48};
-																				angles[]={0,0.0029983683,0};
-																			};
-																			side="West";
-																			flags=5;
-																			class Attributes
-																			{
-																				description="Haran 2 -  Brigade Advisor @Special Operations Command";
-																				isPlayable=1;
-																				class Inventory
-																				{
-																					map="ItemMap";
-																					compass="ItemCompass";
-																					watch="ItemWatch";
-																					radio="JLTS_clone_comlink";
-																				};
-																			};
-																			id=3268;
-																			type="B_officer_F";
-																			atlOffset=0.0014648438;
+																			atlOffset=0.001953125;
 																			class CustomAttributes
 																			{
 																				class Attribute0
@@ -53680,8 +53507,17 @@ class Mission
 																	class Attributes
 																	{
 																	};
+																	id=3261;
+																};
+																class Item2
+																{
+																	dataType="Group";
+																	side="West";
+																	class Attributes
+																	{
+																	};
 																	id=3266;
-																	atlOffset=0.0014648438;
+																	atlOffset=185.97;
 																};
 																class Item3
 																{
@@ -73389,7 +73225,7 @@ class Mission
 																};
 															};
 															id=3255;
-															atlOffset=1530.4202;
+															atlOffset=1529.9675;
 														};
 														class Item2
 														{
@@ -74760,10 +74596,10 @@ class Mission
 																	dataType="Logic";
 																	class PositionInfo
 																	{
-																		position[]={11406.299,1548.4806,23897.441};
-																		angles[]={0,4.6970682,0};
+																		position[]={11406.299,1548.4806,23897.439};
+																		angles[]={0,4.6970654,0};
 																	};
-																	name="Arcanist";
+																	name="Blurr";
 																	id=3472;
 																	type="ModuleCurator_F";
 																	atlOffset=124.97949;
@@ -74778,7 +74614,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="76561198099971170";
+																					value="76561198061412573";
 																				};
 																			};
 																		};
@@ -74924,13 +74760,13 @@ class Mission
 																	dataType="Logic";
 																	class PositionInfo
 																	{
-																		position[]={11405.299,1548.4806,23897.428};
-																		angles[]={0,4.6970682,0};
+																		position[]={11405.299,1548.4807,23897.428};
+																		angles[]={0,4.6970654,0};
 																	};
-																	name="Celt";
+																	name="Sparrow";
 																	id=3474;
 																	type="ModuleCurator_F";
-																	atlOffset=124.97949;
+																	atlOffset=124.97961;
 																	class CustomAttributes
 																	{
 																		class Attribute0
@@ -74942,7 +74778,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="76561198051988609";
+																					value="76561198046902177";
 																				};
 																			};
 																		};
@@ -75088,13 +74924,13 @@ class Mission
 																	dataType="Logic";
 																	class PositionInfo
 																	{
-																		position[]={11405.282,1548.4806,23898.428};
-																		angles[]={0,4.6970682,0};
+																		position[]={11405.282,1548.4805,23898.428};
+																		angles[]={0,4.6970654,0};
 																	};
-																	name="mokka";
+																	name="kyle";
 																	id=3476;
 																	type="ModuleCurator_F";
-																	atlOffset=124.97949;
+																	atlOffset=124.97937;
 																	class CustomAttributes
 																	{
 																		class Attribute0
@@ -75106,7 +74942,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="76561198120665981";
+																					value="76561198377896554";
 																				};
 																			};
 																		};
@@ -75482,15 +75318,15 @@ class Mission
 														};
 													};
 													id=3020;
-													atlOffset=20.028076;
+													atlOffset=20.026611;
 												};
 											};
 											id=3019;
-											atlOffset=20.028076;
+											atlOffset=20.026611;
 										};
 									};
 									id=2150;
-									atlOffset=41.971558;
+									atlOffset=41.970825;
 								};
 								class Item1
 								{
@@ -75507,7 +75343,7 @@ class Mission
 								};
 							};
 							id=2149;
-							atlOffset=81.731079;
+							atlOffset=81.730713;
 						};
 						class Item1
 						{
