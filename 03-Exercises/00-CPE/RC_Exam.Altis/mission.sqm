@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=364;
+		nextID=376;
 	};
 	class Camera
 	{
-		pos[]={7071.6992,322.15378,20550.924};
-		dir[]={0.48567012,-0.59034061,0.64475936};
-		up[]={0.35519451,0.80714262,0.47154412};
-		aside[]={0.79878682,8.4877684e-08,-0.60169286};
+		pos[]={6085.9175,256.17068,21028.082};
+		dir[]={-0.0044972398,-0.99139172,-0.13124254};
+		up[]={-0.033950366,0.13124603,-0.99076664};
+		aside[]={-0.99946439,6.5323547e-08,0.034248378};
 	};
 };
 binarizationWanted=0;
@@ -94,6 +94,7 @@ addons[]=
 	"JLTS_weapons_RPS6",
 	"ls_radios",
 	"ls_lighting",
+	"ls_characters_droid",
 	"mti_armoury_equipment_custom",
 	"3AS_Prop_Platforms",
 	"mti_factions_common",
@@ -101,7 +102,6 @@ addons[]=
 	"JLTS_weapons_RG4D",
 	"A3_Characters_F_Common",
 	"JLTS_weapons_shield",
-	"ls_characters_droid",
 	"mti_factions_grenades",
 	"A3_Weapons_F_Items",
 	"mti_factions_cishuman",
@@ -111,7 +111,6 @@ addons[]=
 	"TKE_General_Gear",
 	"JLTS_C_Intel",
 	"JLTS_C_Credits",
-	"A3_Modules_F_Sites",
 	"A3_Ui_F",
 	"lsb_fob_hBlock",
 	"egl_veg_gliese",
@@ -472,40 +471,40 @@ class AddonsMetaData
 		};
 		class Item52
 		{
+			className="ls_characters";
+			name="Legion Studios: Core - Characters";
+			author="Legion Studios";
+		};
+		class Item53
+		{
 			className="3AS_Prop_Platforms";
 			name="3AS_Prop_Platforms";
 			author="3rd Army Studios";
 		};
-		class Item53
+		class Item54
 		{
 			className="mti_factions_common";
 			name="MokTech Industries - Common";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
-		class Item54
+		class Item55
 		{
 			className="JLTS_weapons_E5";
 			name="JLTS The Great War - Weapons E-5";
 			author="MrClock";
 		};
-		class Item55
+		class Item56
 		{
 			className="JLTS_weapons_RG4D";
 			name="JLTS The Great War - Weapons RG-4D";
 			author="MrClock";
 		};
-		class Item56
+		class Item57
 		{
 			className="JLTS_weapons_shield";
 			name="JLTS The Great War - Weapons Riot shields";
 			author="MrClock";
-		};
-		class Item57
-		{
-			className="ls_characters";
-			name="Legion Studios: Core - Characters";
-			author="Legion Studios";
 		};
 		class Item58
 		{
@@ -710,19 +709,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -753,6 +739,19 @@ class CustomAttributes
 				};
 			};
 		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=0;
+				};
+			};
+		};
 		nAttributes=2;
 	};
 	class Category1
@@ -761,7 +760,7 @@ class CustomAttributes
 		class Attribute0
 		{
 			property="ENH_AddObjectsToZeus";
-			expression="        if (_value isEqualType true) then {_value = 2};        if (!is3DEN && isServer && _value > 0) then        {            _value spawn" \n "            {" \n "                params ['_value'];" \n "                waitUntil {sleep 1; allCurators isNotEqualTo []};" \n "                if (_value == 1 || _value == 2) then                {                    allCurators apply {_x addCuratorEditableObjects [allMissionObjects '', true]};                };                if (_value == 2) then                {                    addMissionEventHandler ['EntityCreated',                    {                        params ['_entity'];                        allCurators apply {_x addCuratorEditableObjects [[_entity], true]};                    }];                };            };        }";
+			expression="        if (_value isEqualType true) then {_value = 2};        if (!is3DEN && isServer && _value > 0) then        {            _value spawn" \n "            {" \n "                params ['_value'];" \n "                waitUntil [{allCurators isNotEqualTo []}, -1, 1];" \n "                if (_value == 1 || _value == 2) then                {                    allCurators apply {_x addCuratorEditableObjects [allMissionObjects '', true]};                };                if (_value == 2) then                {                    addMissionEventHandler ['EntityCreated',                    {                        params ['_entity'];                        allCurators apply {_x addCuratorEditableObjects [[_entity], true]};                    }];                };            };        }";
 			class Value
 			{
 				class data
@@ -1616,7 +1615,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=227;
+		items=224;
 		class Item0
 		{
 			dataType="Layer";
@@ -8802,7 +8801,7 @@ class Mission
 								class Attribute0
 								{
 									property="ENH_makeHostage";
-									expression="    if (isServer && _value) then    {        ENH_fnc_makeHostage =        {            if (_this getVariable ['ENH_isHostage', true]) then            {                _this switchMove 'Acts_AidlPsitMstpSsurWnonDnon04';                [                _this,                localize 'STR_A3_OM_SYSTEM_QUEST_HOSTAGEHOLDACTION',                'A3\Ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa',                'A3\Ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa',                '_target getVariable [''ENH_IsHostage'', true] && {_this distance _target < 2 && {alive _target && {_target != _this}}}',                'alive _target',                {},                {},                {                    params ['_target', '_caller', '_actionId'];                    [_target, 'AmovPercMstpSnonWnonDnon'] remoteExec ['playMoveNow', 0];                    [_target, _actionId] remoteExec ['BIS_fnc_holdActionRemove', 0];                    _target setVariable ['ENH_IsHostage', false, true];                    _target setVariable ['ENH_WasFreedBy', _caller, true];                }                ] call BIS_fnc_holdActionAdd;            };        };        [_this, ENH_fnc_makeHostage] remoteExec ['call', 0, true];    };    ";
+									expression="    if (isServer && _value) then    {        if (isNil 'ENH_fnc_makeHostage') then        {            ENH_fnc_makeHostage = compileFinal            {                if (_this getVariable ['ENH_isHostage', true]) then                {                    _this switchMove 'Acts_AidlPsitMstpSsurWnonDnon04';                    _this disableAI 'MOVE';                    _this setCaptive true;                    [                    _this,                    localize 'STR_A3_OM_SYSTEM_QUEST_HOSTAGEHOLDACTION',                    'A3\Ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa',                    'A3\Ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa',                    '_target getVariable [''ENH_IsHostage'', true] && {_this distance _target < 2 && {alive _target && {_target != _this}}}',                    'alive _target',                    {},                    {},                    {                        params ['_target', '_caller', '_actionId'];                        [_target, 'AmovPercMstpSnonWnonDnon'] remoteExec ['playMoveNow', 0];                        [_target, _actionId] remoteExec ['BIS_fnc_holdActionRemove', 0];                        _target setVariable ['ENH_IsHostage', false, true];                        _target setVariable ['ENH_WasFreedBy', _caller, true];                        _target enableAI 'MOVE';                        [_target] join (group _caller);                        doStop _target;                        _target setCaptive false;                    }                    ] call BIS_fnc_holdActionAdd;                };            };        };        [_this, ENH_fnc_makeHostage] remoteExec ['call', 0, true];    };    ";
 									class Value
 									{
 										class data
@@ -36047,362 +36046,6 @@ class Mission
 		};
 		class Item141
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={6042.271,148.38449,20882.242};
-			};
-			id=1637;
-			type="Site_Minefield";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Site_Minefield_marked";
-					expression="_this setVariable ['marked',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Friendlies";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Site_Minefield_side";
-					expression="_this setVariable ['side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPFOR";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Site_Minefield_conditionOfPresence";
-					expression="_this setVariable ['conditionOfPresence',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="TRUE";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Site_Minefield_minesType";
-					expression="_this setVariable ['minesType',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="APERSMine";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="Site_Minefield_minesCount";
-					expression="_this setVariable ['minesCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="25";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="Site_Minefield_axisA";
-					expression="_this setVariable ['axisA',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="Site_Minefield_axisB";
-					expression="_this setVariable ['axisB',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="Site_Minefield_shape";
-					expression="_this setVariable ['shape',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="ellipse";
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item142
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={6043.2285,130.90549,20939.562};
-			};
-			id=1638;
-			type="Site_Minefield";
-			atlOffset=-4.7942047;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Site_Minefield_marked";
-					expression="_this setVariable ['marked',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Friendlies";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Site_Minefield_side";
-					expression="_this setVariable ['side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPFOR";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Site_Minefield_conditionOfPresence";
-					expression="_this setVariable ['conditionOfPresence',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="TRUE";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Site_Minefield_minesType";
-					expression="_this setVariable ['minesType',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="APERSMine";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="Site_Minefield_minesCount";
-					expression="_this setVariable ['minesCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="25";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="Site_Minefield_axisA";
-					expression="_this setVariable ['axisA',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="Site_Minefield_axisB";
-					expression="_this setVariable ['axisB',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="Site_Minefield_shape";
-					expression="_this setVariable ['shape',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="ellipse";
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item143
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={6066.6348,139.79849,20986.211};
-			};
-			id=1639;
-			type="Site_Minefield";
-			atlOffset=-1.5258789e-05;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Site_Minefield_marked";
-					expression="_this setVariable ['marked',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Friendlies";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Site_Minefield_side";
-					expression="_this setVariable ['side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPFOR";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Site_Minefield_conditionOfPresence";
-					expression="_this setVariable ['conditionOfPresence',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="TRUE";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Site_Minefield_minesType";
-					expression="_this setVariable ['minesType',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="APERSMine";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="Site_Minefield_minesCount";
-					expression="_this setVariable ['minesCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="25";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="Site_Minefield_axisA";
-					expression="_this setVariable ['axisA',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="Site_Minefield_axisB";
-					expression="_this setVariable ['axisB',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="50";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="Site_Minefield_shape";
-					expression="_this setVariable ['shape',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="ellipse";
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item144
-		{
 			dataType="Group";
 			side="East";
 			class Entities
@@ -36455,7 +36098,7 @@ class Mission
 			id=1641;
 			atlOffset=0.85279846;
 		};
-		class Item145
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
@@ -36472,7 +36115,7 @@ class Mission
 			type="mti_factions_cis_droidDispenser";
 			atlOffset=0.85279846;
 		};
-		class Item146
+		class Item143
 		{
 			dataType="Object";
 			class PositionInfo
@@ -36488,7 +36131,7 @@ class Mission
 			id=1644;
 			type="mti_factions_cis_J10s";
 		};
-		class Item147
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -36504,7 +36147,7 @@ class Mission
 			id=1646;
 			type="mti_factions_cis_J10s";
 		};
-		class Item148
+		class Item145
 		{
 			dataType="Object";
 			class PositionInfo
@@ -36520,7 +36163,7 @@ class Mission
 			id=1648;
 			type="mti_factions_cis_J10s";
 		};
-		class Item149
+		class Item146
 		{
 			dataType="Object";
 			class PositionInfo
@@ -36536,7 +36179,7 @@ class Mission
 			id=1650;
 			type="mti_factions_cis_J10s";
 		};
-		class Item150
+		class Item147
 		{
 			dataType="Marker";
 			position[]={5233.3779,241.40601,21001.348};
@@ -36579,7 +36222,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item151
+		class Item148
 		{
 			dataType="Marker";
 			position[]={7408.439,77.560997,20894.443};
@@ -36620,7 +36263,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item152
+		class Item149
 		{
 			dataType="Layer";
 			name="Blord Tree House 2";
@@ -36944,7 +36587,7 @@ class Mission
 			id=1729;
 			atlOffset=18.485565;
 		};
-		class Item153
+		class Item150
 		{
 			dataType="Group";
 			side="East";
@@ -37260,7 +36903,7 @@ class Mission
 			id=1730;
 			atlOffset=0.00015258789;
 		};
-		class Item154
+		class Item151
 		{
 			dataType="Object";
 			class PositionInfo
@@ -37278,7 +36921,7 @@ class Mission
 			type="mti_factions_cis_ParticleCannon";
 			atlOffset=0.00015258789;
 		};
-		class Item155
+		class Item152
 		{
 			dataType="Object";
 			class PositionInfo
@@ -37296,7 +36939,7 @@ class Mission
 			type="mti_factions_cis_ParticleCannon";
 			atlOffset=0.099761963;
 		};
-		class Item156
+		class Item153
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -37339,7 +36982,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item157
+		class Item154
 		{
 			dataType="Layer";
 			name="CIS Vertical Combat Outpost";
@@ -38113,7 +37756,7 @@ class Mission
 			id=2344;
 			atlOffset=0.19396973;
 		};
-		class Item158
+		class Item155
 		{
 			dataType="Group";
 			side="East";
@@ -38448,7 +38091,7 @@ class Mission
 			};
 			id=2348;
 		};
-		class Item159
+		class Item156
 		{
 			dataType="Object";
 			class PositionInfo
@@ -38464,7 +38107,7 @@ class Mission
 			id=2349;
 			type="mti_factions_cis_ParticleCannon";
 		};
-		class Item160
+		class Item157
 		{
 			dataType="Group";
 			side="East";
@@ -38799,7 +38442,7 @@ class Mission
 			id=2351;
 			atlOffset=0.40008545;
 		};
-		class Item161
+		class Item158
 		{
 			dataType="Object";
 			class PositionInfo
@@ -38816,7 +38459,7 @@ class Mission
 			type="mti_factions_cis_ParticleCannon";
 			atlOffset=0.40008545;
 		};
-		class Item162
+		class Item159
 		{
 			dataType="Group";
 			side="East";
@@ -39314,7 +38957,7 @@ class Mission
 			id=2354;
 			atlOffset=0.011047363;
 		};
-		class Item163
+		class Item160
 		{
 			dataType="Group";
 			side="East";
@@ -39500,7 +39143,7 @@ class Mission
 			id=2357;
 			atlOffset=0.070343018;
 		};
-		class Item164
+		class Item161
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39517,7 +39160,7 @@ class Mission
 			type="mti_factions_cis_Eweb_Armoured";
 			atlOffset=0.070343018;
 		};
-		class Item165
+		class Item162
 		{
 			dataType="Group";
 			side="East";
@@ -39573,7 +39216,7 @@ class Mission
 			id=2364;
 			atlOffset=0.18029785;
 		};
-		class Item166
+		class Item163
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39590,7 +39233,7 @@ class Mission
 			type="mti_factions_cis_Deka_Static_Sniper";
 			atlOffset=0.18029785;
 		};
-		class Item167
+		class Item164
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39605,7 +39248,7 @@ class Mission
 			type="mti_factions_cis_ParticleCannon";
 			atlOffset=5.324585;
 		};
-		class Item168
+		class Item165
 		{
 			dataType="Group";
 			side="East";
@@ -39711,7 +39354,7 @@ class Mission
 			id=2369;
 			atlOffset=7.2480011;
 		};
-		class Item169
+		class Item166
 		{
 			dataType="Group";
 			side="East";
@@ -39875,7 +39518,7 @@ class Mission
 			id=2372;
 			atlOffset=0.00018310547;
 		};
-		class Item170
+		class Item167
 		{
 			dataType="Group";
 			side="East";
@@ -40039,7 +39682,7 @@ class Mission
 			id=2374;
 			atlOffset=8.6340942;
 		};
-		class Item171
+		class Item168
 		{
 			dataType="Group";
 			side="East";
@@ -40351,7 +39994,7 @@ class Mission
 			};
 			id=2376;
 		};
-		class Item172
+		class Item169
 		{
 			dataType="Group";
 			side="East";
@@ -40522,7 +40165,7 @@ class Mission
 			id=2380;
 			atlOffset=3.0517578e-05;
 		};
-		class Item173
+		class Item170
 		{
 			dataType="Group";
 			side="East";
@@ -40692,7 +40335,7 @@ class Mission
 			};
 			id=2382;
 		};
-		class Item174
+		class Item171
 		{
 			dataType="Group";
 			side="East";
@@ -41020,7 +40663,7 @@ class Mission
 			id=2384;
 			atlOffset=0.00042724609;
 		};
-		class Item175
+		class Item172
 		{
 			dataType="Group";
 			side="East";
@@ -41467,7 +41110,7 @@ class Mission
 			id=2403;
 			atlOffset=0.42501831;
 		};
-		class Item176
+		class Item173
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41485,7 +41128,7 @@ class Mission
 			type="mti_factions_cis_AAT_CIS";
 			atlOffset=0.42501831;
 		};
-		class Item177
+		class Item174
 		{
 			dataType="Group";
 			side="East";
@@ -42354,7 +41997,7 @@ class Mission
 			};
 			id=2413;
 		};
-		class Item178
+		class Item175
 		{
 			dataType="Group";
 			side="East";
@@ -43194,7 +42837,7 @@ class Mission
 			};
 			id=2427;
 		};
-		class Item179
+		class Item176
 		{
 			dataType="Group";
 			side="East";
@@ -44021,7 +43664,7 @@ class Mission
 			};
 			id=2441;
 		};
-		class Item180
+		class Item177
 		{
 			dataType="Group";
 			side="East";
@@ -44861,7 +44504,7 @@ class Mission
 			};
 			id=2469;
 		};
-		class Item181
+		class Item178
 		{
 			dataType="Group";
 			side="East";
@@ -45688,7 +45331,7 @@ class Mission
 			};
 			id=2476;
 		};
-		class Item182
+		class Item179
 		{
 			dataType="Group";
 			side="East";
@@ -46539,7 +46182,7 @@ class Mission
 			};
 			id=2511;
 		};
-		class Item183
+		class Item180
 		{
 			dataType="Group";
 			side="East";
@@ -47379,7 +47022,7 @@ class Mission
 			};
 			id=2525;
 		};
-		class Item184
+		class Item181
 		{
 			dataType="Layer";
 			name="CIS Mortar Pit (Small)";
@@ -47479,7 +47122,7 @@ class Mission
 			id=2702;
 			atlOffset=-0.10215759;
 		};
-		class Item185
+		class Item182
 		{
 			dataType="Group";
 			side="East";
@@ -47642,7 +47285,7 @@ class Mission
 			};
 			id=2717;
 		};
-		class Item186
+		class Item183
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47658,7 +47301,7 @@ class Mission
 			type="mti_factions_cis_Mortar";
 			atlOffset=-0.00045776367;
 		};
-		class Item187
+		class Item184
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47674,7 +47317,7 @@ class Mission
 			type="mti_factions_cis_Mortar";
 			atlOffset=-0.0019226074;
 		};
-		class Item188
+		class Item185
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47690,7 +47333,7 @@ class Mission
 			type="mti_factions_cis_Mortar";
 			atlOffset=-0.0037841797;
 		};
-		class Item189
+		class Item186
 		{
 			dataType="Group";
 			side="East";
@@ -47852,7 +47495,7 @@ class Mission
 			};
 			id=2740;
 		};
-		class Item190
+		class Item187
 		{
 			dataType="Group";
 			side="East";
@@ -48505,7 +48148,7 @@ class Mission
 			};
 			id=2742;
 		};
-		class Item191
+		class Item188
 		{
 			dataType="Group";
 			side="East";
@@ -49336,7 +48979,7 @@ class Mission
 			id=2756;
 			atlOffset=-7.6293945e-06;
 		};
-		class Item192
+		class Item189
 		{
 			dataType="Group";
 			side="East";
@@ -49521,7 +49164,7 @@ class Mission
 			id=2781;
 			atlOffset=0.47039795;
 		};
-		class Item193
+		class Item190
 		{
 			dataType="Object";
 			class PositionInfo
@@ -49540,7 +49183,7 @@ class Mission
 			type="mti_factions_cis_Scythe";
 			atlOffset=0.47039795;
 		};
-		class Item194
+		class Item191
 		{
 			dataType="Marker";
 			position[]={8092.855,65.214996,21001.992};
@@ -49583,7 +49226,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item195
+		class Item192
 		{
 			dataType="Marker";
 			position[]={6662.9839,194.71001,21990.812};
@@ -49626,7 +49269,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item196
+		class Item193
 		{
 			dataType="Marker";
 			position[]={6662.9839,174.95399,20011.523};
@@ -49669,7 +49312,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item197
+		class Item194
 		{
 			dataType="Group";
 			side="East";
@@ -49725,7 +49368,7 @@ class Mission
 			id=2791;
 			atlOffset=-1.5258789e-05;
 		};
-		class Item198
+		class Item195
 		{
 			dataType="Object";
 			class PositionInfo
@@ -49741,7 +49384,7 @@ class Mission
 			type="mti_factions_cis_Deka_Static_Sniper";
 			atlOffset=-1.5258789e-05;
 		};
-		class Item199
+		class Item196
 		{
 			dataType="Group";
 			side="East";
@@ -49797,7 +49440,7 @@ class Mission
 			id=2794;
 			atlOffset=7.6293945e-05;
 		};
-		class Item200
+		class Item197
 		{
 			dataType="Object";
 			class PositionInfo
@@ -49814,7 +49457,7 @@ class Mission
 			type="mti_factions_cis_Deka_Static_Sniper";
 			atlOffset=7.6293945e-05;
 		};
-		class Item201
+		class Item198
 		{
 			dataType="Group";
 			side="East";
@@ -49870,7 +49513,7 @@ class Mission
 			id=2797;
 			atlOffset=-3.0517578e-05;
 		};
-		class Item202
+		class Item199
 		{
 			dataType="Object";
 			class PositionInfo
@@ -49886,7 +49529,7 @@ class Mission
 			type="mti_factions_cis_Deka_Static_Sniper";
 			atlOffset=-3.0517578e-05;
 		};
-		class Item203
+		class Item200
 		{
 			dataType="Group";
 			side="East";
@@ -49941,7 +49584,7 @@ class Mission
 			};
 			id=2800;
 		};
-		class Item204
+		class Item201
 		{
 			dataType="Object";
 			class PositionInfo
@@ -49957,7 +49600,7 @@ class Mission
 			id=2801;
 			type="mti_factions_cis_Deka_Static_Sniper";
 		};
-		class Item205
+		class Item202
 		{
 			dataType="Group";
 			side="East";
@@ -50013,7 +49656,7 @@ class Mission
 			id=2803;
 			atlOffset=0.00022888184;
 		};
-		class Item206
+		class Item203
 		{
 			dataType="Object";
 			class PositionInfo
@@ -50030,7 +49673,7 @@ class Mission
 			type="mti_factions_cis_Deka_Static_Sniper";
 			atlOffset=0.00022888184;
 		};
-		class Item207
+		class Item204
 		{
 			dataType="Group";
 			side="East";
@@ -50477,7 +50120,7 @@ class Mission
 			id=2811;
 			atlOffset=2.2042694;
 		};
-		class Item208
+		class Item205
 		{
 			dataType="Object";
 			class PositionInfo
@@ -50494,7 +50137,7 @@ class Mission
 			type="mti_factions_cishuman_Rat";
 			atlOffset=2.2042694;
 		};
-		class Item209
+		class Item206
 		{
 			dataType="Group";
 			side="East";
@@ -50644,7 +50287,7 @@ class Mission
 			id=2845;
 			atlOffset=-0.0019226074;
 		};
-		class Item210
+		class Item207
 		{
 			dataType="Group";
 			side="East";
@@ -50824,7 +50467,7 @@ class Mission
 			id=2846;
 			atlOffset=-0.00045776367;
 		};
-		class Item211
+		class Item208
 		{
 			dataType="Group";
 			side="East";
@@ -50973,7 +50616,7 @@ class Mission
 			id=2847;
 			atlOffset=-0.0037841797;
 		};
-		class Item212
+		class Item209
 		{
 			dataType="Group";
 			side="East";
@@ -51135,7 +50778,7 @@ class Mission
 			};
 			id=2848;
 		};
-		class Item213
+		class Item210
 		{
 			dataType="Group";
 			side="East";
@@ -51667,7 +51310,7 @@ class Mission
 			id=2865;
 			atlOffset=104.71611;
 		};
-		class Item214
+		class Item211
 		{
 			dataType="Object";
 			class PositionInfo
@@ -51683,7 +51326,7 @@ class Mission
 			type="mti_factions_cis_hmp_transport";
 			atlOffset=104.71611;
 		};
-		class Item215
+		class Item212
 		{
 			dataType="Group";
 			side="East";
@@ -52215,7 +51858,7 @@ class Mission
 			id=2871;
 			atlOffset=74.262268;
 		};
-		class Item216
+		class Item213
 		{
 			dataType="Object";
 			class PositionInfo
@@ -52231,7 +51874,7 @@ class Mission
 			type="mti_factions_cis_hmp_transport";
 			atlOffset=74.262268;
 		};
-		class Item217
+		class Item214
 		{
 			dataType="Group";
 			side="East";
@@ -52796,7 +52439,7 @@ class Mission
 			id=2880;
 			atlOffset=154.31039;
 		};
-		class Item218
+		class Item215
 		{
 			dataType="Object";
 			class PositionInfo
@@ -52812,7 +52455,7 @@ class Mission
 			type="mti_factions_cis_hmp_a2a";
 			atlOffset=154.31039;
 		};
-		class Item219
+		class Item216
 		{
 			dataType="Group";
 			side="East";
@@ -53659,7 +53302,7 @@ class Mission
 			id=2904;
 			atlOffset=-65.752335;
 		};
-		class Item220
+		class Item217
 		{
 			dataType="Group";
 			side="East";
@@ -54280,7 +53923,7 @@ class Mission
 			id=2923;
 			atlOffset=-1.5258789e-05;
 		};
-		class Item221
+		class Item218
 		{
 			dataType="Group";
 			side="East";
@@ -55310,7 +54953,7 @@ class Mission
 			};
 			id=2943;
 		};
-		class Item222
+		class Item219
 		{
 			dataType="Group";
 			side="East";
@@ -55928,7 +55571,7 @@ class Mission
 			};
 			id=2952;
 		};
-		class Item223
+		class Item220
 		{
 			dataType="Group";
 			side="East";
@@ -56568,7 +56211,7 @@ class Mission
 			};
 			id=2957;
 		};
-		class Item224
+		class Item221
 		{
 			dataType="Group";
 			side="East";
@@ -57188,7 +56831,7 @@ class Mission
 			id=3009;
 			atlOffset=-3.0517578e-05;
 		};
-		class Item225
+		class Item222
 		{
 			dataType="Group";
 			side="East";
@@ -57809,7 +57452,7 @@ class Mission
 			id=3021;
 			atlOffset=-3.0517578e-05;
 		};
-		class Item226
+		class Item223
 		{
 			dataType="Layer";
 			name="PE";
