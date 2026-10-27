@@ -47,14 +47,14 @@ addons[]=
 	"A3_Characters_F_Common",
 	"3AS_Intel",
 	"3AS_Prop_Crates",
-	"mti_factions_cis",
+	"rri_factions_cis",
 	"JLTS_characters_DroidArmor",
 	"3AS_Prop_Platforms",
-	"mti_factions_cishuman",
+	"rri_factions_cishuman",
 	"sob_compat_arsenal",
-	"mti_factions_sob",
-	"mti_factions_common",
-	"mti_armoury_vehicles_laati",
+	"rri_factions_sob",
+	"rri_factions_common",
+	"rri_armoury_vehicles_laati",
 	"A3_Ui_F"
 };
 class AddonsMetaData
@@ -134,7 +134,7 @@ class AddonsMetaData
 		};
 		class Item11
 		{
-			className="mti_factions_cis";
+			className="rri_factions_cis";
 			name="MokTech Industries - CIS";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -153,7 +153,7 @@ class AddonsMetaData
 		};
 		class Item14
 		{
-			className="mti_factions_cishuman";
+			className="rri_factions_cishuman";
 			name="MokTech Industries - cishuman";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -167,21 +167,21 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className="mti_factions_sob";
+			className="rri_factions_sob";
 			name="MokTech Industries - SOB";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item17
 		{
-			className="mti_factions_common";
+			className="rri_factions_common";
 			name="MokTech Industries - Common";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item18
 		{
-			className="mti_armoury_vehicles";
+			className="rri_armoury_vehicles";
 			name="MokTech Industries - Vehicles";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -210,10 +210,10 @@ class ScenarioData
 	author="Special Operations Brigade";
 	overviewText="All proceeds are classified";
 	overviewTextLocked="All proceeds are classified";
-	overViewPicture="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
-	overViewPictureLocked="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPicture="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPictureLocked="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	onLoadMission="All proceeds are classified";
-	loadScreen="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	loadScreen="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	briefing=0;
 	debriefing=0;
 	saving=0;
@@ -1852,8 +1852,8 @@ class Mission
 							{
 								class Attribute0
 								{
-									property="mti_common_resistance_stun";
-									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+									property="rri_common_resistance_stun";
+									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 									class Value
 									{
 										class data
@@ -1878,8 +1878,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -1969,8 +1969,8 @@ class Mission
 								};
 								class Attribute9
 								{
-									property="mti_common_Pilot";
-									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 									class Value
 									{
 										class data
@@ -2060,8 +2060,8 @@ class Mission
 								};
 								class Attribute16
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -2121,8 +2121,8 @@ class Mission
 							{
 								class Attribute0
 								{
-									property="mti_common_resistance_stun";
-									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+									property="rri_common_resistance_stun";
+									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 									class Value
 									{
 										class data
@@ -2160,8 +2160,8 @@ class Mission
 								};
 								class Attribute3
 								{
-									property="mti_common_Pilot";
-									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 									class Value
 									{
 										class data
@@ -2173,8 +2173,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -2251,8 +2251,8 @@ class Mission
 								};
 								class Attribute10
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -2298,8 +2298,8 @@ class Mission
 							{
 								class Attribute0
 								{
-									property="mti_common_resistance_stun";
-									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+									property="rri_common_resistance_stun";
+									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 									class Value
 									{
 										class data
@@ -2324,8 +2324,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -2415,8 +2415,8 @@ class Mission
 								};
 								class Attribute9
 								{
-									property="mti_common_Pilot";
-									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 									class Value
 									{
 										class data
@@ -2506,8 +2506,8 @@ class Mission
 								};
 								class Attribute16
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -2566,8 +2566,8 @@ class Mission
 							{
 								class Attribute0
 								{
-									property="mti_common_resistance_stun";
-									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+									property="rri_common_resistance_stun";
+									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 									class Value
 									{
 										class data
@@ -2592,8 +2592,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -2683,8 +2683,8 @@ class Mission
 								};
 								class Attribute9
 								{
-									property="mti_common_Pilot";
-									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 									class Value
 									{
 										class data
@@ -2774,8 +2774,8 @@ class Mission
 								};
 								class Attribute16
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -2878,8 +2878,8 @@ class Mission
 								};
 								class Attribute3
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -2891,8 +2891,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -2980,8 +2980,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -3058,8 +3058,8 @@ class Mission
 								};
 								class Attribute8
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -3134,8 +3134,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -3199,8 +3199,8 @@ class Mission
 								};
 								class Attribute7
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -3274,8 +3274,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -3339,8 +3339,8 @@ class Mission
 								};
 								class Attribute7
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -3415,8 +3415,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="mti_common_resistance_ion";
-									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+									property="rri_common_resistance_ion";
+									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 									class Value
 									{
 										class data
@@ -3480,8 +3480,8 @@ class Mission
 								};
 								class Attribute7
 								{
-									property="mti_common_Group_Preset";
-									expression="[_this, _value] call mti_common_fnc_initPlayer";
+									property="rri_common_Group_Preset";
+									expression="[_this, _value] call rri_common_fnc_initPlayer";
 									class Value
 									{
 										class data
@@ -4635,7 +4635,7 @@ class Mission
 			{
 			};
 			id=534;
-			type="mti_factions_cis_Deka_Shield";
+			type="rri_factions_cis_Deka_Shield";
 		};
 		class Item24
 		{
@@ -4658,7 +4658,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=559;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -4673,7 +4673,7 @@ class Mission
 					{
 					};
 					id=560;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -4688,7 +4688,7 @@ class Mission
 					{
 					};
 					id=561;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -4703,7 +4703,7 @@ class Mission
 					{
 					};
 					id=562;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -4886,7 +4886,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=575;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -4901,7 +4901,7 @@ class Mission
 					{
 					};
 					id=576;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -4916,7 +4916,7 @@ class Mission
 					{
 					};
 					id=577;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -4931,7 +4931,7 @@ class Mission
 					{
 					};
 					id=578;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -5113,7 +5113,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=592;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -5128,7 +5128,7 @@ class Mission
 					{
 					};
 					id=593;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -5144,7 +5144,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=594;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -5159,7 +5159,7 @@ class Mission
 					{
 					};
 					id=595;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item4
 				{
@@ -5174,7 +5174,7 @@ class Mission
 					{
 					};
 					id=596;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -5190,7 +5190,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=597;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item6
 				{
@@ -5205,7 +5205,7 @@ class Mission
 					{
 					};
 					id=598;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -5220,7 +5220,7 @@ class Mission
 					{
 					};
 					id=599;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item8
 				{
@@ -5373,7 +5373,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=611;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -5388,7 +5388,7 @@ class Mission
 					{
 					};
 					id=612;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -5403,7 +5403,7 @@ class Mission
 					{
 					};
 					id=613;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -5418,7 +5418,7 @@ class Mission
 					{
 					};
 					id=614;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -5585,7 +5585,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=627;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -5600,7 +5600,7 @@ class Mission
 					{
 					};
 					id=628;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -5616,7 +5616,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=629;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -5631,7 +5631,7 @@ class Mission
 					{
 					};
 					id=630;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item4
 				{
@@ -5646,7 +5646,7 @@ class Mission
 					{
 					};
 					id=631;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -5662,7 +5662,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=632;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item6
 				{
@@ -5677,7 +5677,7 @@ class Mission
 					{
 					};
 					id=633;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -5692,7 +5692,7 @@ class Mission
 					{
 					};
 					id=634;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item8
 				{
@@ -5860,7 +5860,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=647;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -5875,7 +5875,7 @@ class Mission
 					{
 					};
 					id=648;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -5891,7 +5891,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=649;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -5906,7 +5906,7 @@ class Mission
 					{
 					};
 					id=650;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -5921,7 +5921,7 @@ class Mission
 					{
 					};
 					id=651;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -5937,7 +5937,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=652;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -5952,7 +5952,7 @@ class Mission
 					{
 					};
 					id=653;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -5967,7 +5967,7 @@ class Mission
 					{
 					};
 					id=654;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -6150,7 +6150,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=668;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -6165,7 +6165,7 @@ class Mission
 					{
 					};
 					id=669;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -6180,7 +6180,7 @@ class Mission
 					{
 					};
 					id=670;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -6195,7 +6195,7 @@ class Mission
 					{
 					};
 					id=671;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -6349,7 +6349,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=683;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -6364,7 +6364,7 @@ class Mission
 					{
 					};
 					id=684;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -6379,7 +6379,7 @@ class Mission
 					{
 					};
 					id=685;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -6394,7 +6394,7 @@ class Mission
 					{
 					};
 					id=686;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -6516,7 +6516,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=696;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -6531,7 +6531,7 @@ class Mission
 					{
 					};
 					id=697;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -6547,7 +6547,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=698;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -6562,7 +6562,7 @@ class Mission
 					{
 					};
 					id=699;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -6577,7 +6577,7 @@ class Mission
 					{
 					};
 					id=700;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -6593,7 +6593,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=701;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -6608,7 +6608,7 @@ class Mission
 					{
 					};
 					id=702;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -6623,7 +6623,7 @@ class Mission
 					{
 					};
 					id=703;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -6792,7 +6792,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=716;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -6807,7 +6807,7 @@ class Mission
 					{
 					};
 					id=717;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=-7.6293945e-06;
 				};
 				class Item2
@@ -6824,7 +6824,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=718;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -6839,7 +6839,7 @@ class Mission
 					{
 					};
 					id=719;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item4
 				{
@@ -6854,7 +6854,7 @@ class Mission
 					{
 					};
 					id=720;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -6870,7 +6870,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=721;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item6
 				{
@@ -6885,7 +6885,7 @@ class Mission
 					{
 					};
 					id=722;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -6900,7 +6900,7 @@ class Mission
 					{
 					};
 					id=723;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 					atlOffset=7.6293945e-06;
 				};
 				class Item8
@@ -7043,7 +7043,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=734;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -7058,7 +7058,7 @@ class Mission
 					{
 					};
 					id=735;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -7074,7 +7074,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=736;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -7089,7 +7089,7 @@ class Mission
 					{
 					};
 					id=737;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -7104,7 +7104,7 @@ class Mission
 					{
 					};
 					id=738;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -7120,7 +7120,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=739;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -7135,7 +7135,7 @@ class Mission
 					{
 					};
 					id=740;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -7150,7 +7150,7 @@ class Mission
 					{
 					};
 					id=741;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -7260,7 +7260,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=750;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -7275,7 +7275,7 @@ class Mission
 					{
 					};
 					id=751;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -7291,7 +7291,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=752;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -7306,7 +7306,7 @@ class Mission
 					{
 					};
 					id=753;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -7321,7 +7321,7 @@ class Mission
 					{
 					};
 					id=754;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -7337,7 +7337,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=755;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -7352,7 +7352,7 @@ class Mission
 					{
 					};
 					id=756;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -7367,7 +7367,7 @@ class Mission
 					{
 					};
 					id=757;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -7473,7 +7473,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=767;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -7488,7 +7488,7 @@ class Mission
 					{
 					};
 					id=768;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -7503,7 +7503,7 @@ class Mission
 					{
 					};
 					id=769;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -7518,7 +7518,7 @@ class Mission
 					{
 					};
 					id=770;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -7655,7 +7655,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=781;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -7670,7 +7670,7 @@ class Mission
 					{
 					};
 					id=782;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -7686,7 +7686,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=783;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -7701,7 +7701,7 @@ class Mission
 					{
 					};
 					id=784;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -7716,7 +7716,7 @@ class Mission
 					{
 					};
 					id=785;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -7732,7 +7732,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=786;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -7747,7 +7747,7 @@ class Mission
 					{
 					};
 					id=787;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -7762,7 +7762,7 @@ class Mission
 					{
 					};
 					id=788;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -7853,7 +7853,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=796;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=-7.6293945e-06;
 				};
 				class Item1
@@ -7869,7 +7869,7 @@ class Mission
 					{
 					};
 					id=797;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -7884,7 +7884,7 @@ class Mission
 					{
 					};
 					id=798;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -7899,7 +7899,7 @@ class Mission
 					{
 					};
 					id=799;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -8053,7 +8053,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=811;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=4.7683716e-07;
 				};
 				class Item1
@@ -8069,7 +8069,7 @@ class Mission
 					{
 					};
 					id=812;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=-4.7683716e-07;
 				};
 				class Item2
@@ -8085,7 +8085,7 @@ class Mission
 					{
 					};
 					id=813;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -8100,7 +8100,7 @@ class Mission
 					{
 					};
 					id=814;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -8271,7 +8271,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=827;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -8286,7 +8286,7 @@ class Mission
 					{
 					};
 					id=828;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -8301,7 +8301,7 @@ class Mission
 					{
 					};
 					id=829;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -8316,7 +8316,7 @@ class Mission
 					{
 					};
 					id=830;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item4
 				{
@@ -8410,7 +8410,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=838;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -8425,7 +8425,7 @@ class Mission
 					{
 					};
 					id=839;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item2
 				{
@@ -8441,7 +8441,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=840;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -8456,7 +8456,7 @@ class Mission
 					{
 					};
 					id=841;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item4
 				{
@@ -8471,7 +8471,7 @@ class Mission
 					{
 					};
 					id=842;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -8487,7 +8487,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=843;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item6
 				{
@@ -8502,7 +8502,7 @@ class Mission
 					{
 					};
 					id=844;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -8517,7 +8517,7 @@ class Mission
 					{
 					};
 					id=845;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item8
 				{
@@ -8639,7 +8639,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=855;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -8654,7 +8654,7 @@ class Mission
 					{
 					};
 					id=856;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -8670,7 +8670,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=857;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -8685,7 +8685,7 @@ class Mission
 					{
 					};
 					id=858;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item4
 				{
@@ -8700,7 +8700,7 @@ class Mission
 					{
 					};
 					id=859;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item5
 				{
@@ -8716,7 +8716,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=860;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item6
 				{
@@ -8731,7 +8731,7 @@ class Mission
 					{
 					};
 					id=861;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 				class Item7
 				{
@@ -8746,7 +8746,7 @@ class Mission
 					{
 					};
 					id=862;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 				};
 				class Item8
 				{
@@ -8885,7 +8885,7 @@ class Mission
 						stance="Down";
 					};
 					id=871;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 				class Item1
 				{
@@ -8903,7 +8903,7 @@ class Mission
 						stance="Down";
 					};
 					id=872;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 			};
 			class Attributes
@@ -8935,7 +8935,7 @@ class Mission
 					{
 					};
 					id=877;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=4.5776367e-05;
 				};
 				class Item1
@@ -8952,7 +8952,7 @@ class Mission
 					{
 					};
 					id=878;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.0031738281;
 				};
 			};
@@ -9011,7 +9011,7 @@ class Mission
 			{
 			};
 			id=876;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 			atlOffset=0.41931152;
 		};
 		class Item46
@@ -9036,7 +9036,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=882;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=0.025054932;
 				};
 				class Item1
@@ -9053,7 +9053,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=883;
-					type="mti_factions_cis_B1_SBB3";
+					type="rri_factions_cis_B1_SBB3";
 					atlOffset=0.12832642;
 				};
 				class Item2
@@ -9070,7 +9070,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=886;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					atlOffset=0.025054932;
 				};
 				class Item3
@@ -9088,7 +9088,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=887;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=0.12833023;
 				};
 				class Item4
@@ -9105,7 +9105,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=888;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 					atlOffset=0.12832642;
 				};
 				class Item5
@@ -9122,7 +9122,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=889;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 					atlOffset=0.22362137;
 				};
 				class Item6
@@ -9140,7 +9140,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=913;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9187,7 +9187,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=914;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					atlOffset=0.064201355;
 				};
 			};
@@ -9238,7 +9238,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=892;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=0.025054932;
 				};
 				class Item1
@@ -9255,7 +9255,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=893;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=0.12832642;
 				};
 				class Item2
@@ -9272,7 +9272,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=894;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=0.025054932;
 				};
 				class Item3
@@ -9290,7 +9290,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=916;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 				};
 			};
 			class Attributes
@@ -9340,7 +9340,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=898;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -9356,7 +9356,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=899;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=0.12786484;
 					class CustomAttributes
 					{
@@ -9404,7 +9404,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=900;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -9420,7 +9420,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=901;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=0.12833023;
 				};
 				class Item4
@@ -9437,7 +9437,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=902;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					atlOffset=6.5381165;
 				};
 				class Item5
@@ -9455,7 +9455,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=903;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					atlOffset=0.064201355;
 				};
 				class Item6
@@ -9472,7 +9472,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=904;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 					atlOffset=0.21385193;
 				};
 				class Item7
@@ -9489,7 +9489,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=915;
-					type="mti_factions_cis_B1_Sniper";
+					type="rri_factions_cis_B1_Sniper";
 					atlOffset=0.064201355;
 				};
 			};
@@ -9540,7 +9540,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=908;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=0.12832642;
 				};
 				class Item1
@@ -9557,7 +9557,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=909;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=0.025054932;
 				};
 				class Item2
@@ -9574,7 +9574,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=910;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=0.025054932;
 				};
 				class Item3
@@ -9591,7 +9591,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=911;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 					atlOffset=0.12832642;
 				};
 			};
@@ -9641,7 +9641,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=918;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 				};
 				class Item1
 				{
@@ -9656,7 +9656,7 @@ class Mission
 					{
 					};
 					id=919;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 				};
 				class Item2
 				{
@@ -9671,7 +9671,7 @@ class Mission
 					{
 					};
 					id=920;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 				};
 				class Item3
 				{
@@ -9686,7 +9686,7 @@ class Mission
 					{
 					};
 					id=921;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 				};
 			};
 			class Attributes
@@ -9720,7 +9720,7 @@ class Mission
 					{
 					};
 					id=926;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -9735,7 +9735,7 @@ class Mission
 					{
 					};
 					id=927;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=1.9995422;
 				};
 				class Item2
@@ -9752,7 +9752,7 @@ class Mission
 					{
 					};
 					id=928;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=1.9995422;
 				};
 			};
@@ -9819,7 +9819,7 @@ class Mission
 			{
 			};
 			id=925;
-			type="mti_factions_cis_AAT_CIS";
+			type="rri_factions_cis_AAT_CIS";
 			atlOffset=1.9942017;
 		};
 		class Item53
@@ -9893,7 +9893,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=930;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=0.61514282;
 		};
 		class Item55
@@ -10547,7 +10547,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=965;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=0.52207947;
 		};
 		class Item59
@@ -10572,7 +10572,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=982;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10619,7 +10619,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=984;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					atlOffset=3.8146973e-06;
 					class CustomAttributes
 					{
@@ -10667,7 +10667,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=976;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -10715,7 +10715,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=980;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					atlOffset=3.8146973e-06;
 					class CustomAttributes
 					{
@@ -10763,7 +10763,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=978;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10810,7 +10810,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=972;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					atlOffset=0.088882446;
 					class CustomAttributes
 					{
@@ -10858,7 +10858,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=974;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10905,7 +10905,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=970;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10952,7 +10952,7 @@ class Mission
 						init="this disableAI ""PATH"";";
 					};
 					id=968;
-					type="mti_factions_cishuman_unit_Rifleman_Light";
+					type="rri_factions_cishuman_unit_Rifleman_Light";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11011,7 +11011,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=986;
-					type="mti_factions_cis_B1_SL";
+					type="rri_factions_cis_B1_SL";
 					atlOffset=5.4205017;
 				};
 				class Item1
@@ -11027,7 +11027,7 @@ class Mission
 					{
 					};
 					id=987;
-					type="mti_factions_cis_B1_Support";
+					type="rri_factions_cis_B1_Support";
 					atlOffset=5.2613068;
 				};
 				class Item2
@@ -11043,7 +11043,7 @@ class Mission
 					{
 					};
 					id=988;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=3.3806305;
 				};
 				class Item3
@@ -11059,7 +11059,7 @@ class Mission
 					{
 					};
 					id=989;
-					type="mti_factions_cis_B1_AT";
+					type="rri_factions_cis_B1_AT";
 					atlOffset=4.8927002;
 				};
 				class Item4
@@ -11252,7 +11252,7 @@ class Mission
 						init="this setDamage 1;";
 					};
 					id=1001;
-					type="mti_factions_sob_unit_RC_SL";
+					type="rri_factions_sob_unit_RC_SL";
 					atlOffset=0.076000214;
 					class CustomAttributes
 					{
@@ -11300,7 +11300,7 @@ class Mission
 						init="this setDamage 1;";
 					};
 					id=1003;
-					type="mti_factions_sob_unit_RC_Sniper";
+					type="rri_factions_sob_unit_RC_Sniper";
 					atlOffset=0.095001221;
 					class CustomAttributes
 					{
@@ -11348,7 +11348,7 @@ class Mission
 						init="this setDamage 1;";
 					};
 					id=1005;
-					type="mti_factions_sob_unit_RC_Tech";
+					type="rri_factions_sob_unit_RC_Tech";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11394,7 +11394,7 @@ class Mission
 						init="this setDamage 1;";
 					};
 					id=1007;
-					type="mti_factions_sob_unit_RC_EOD";
+					type="rri_factions_sob_unit_RC_EOD";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11439,7 +11439,7 @@ class Mission
 					{
 					};
 					id=1018;
-					type="mti_factions_cis_B2";
+					type="rri_factions_cis_B2";
 				};
 			};
 			class Attributes
@@ -11467,7 +11467,7 @@ class Mission
 					{
 					};
 					id=1022;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 				class Item1
 				{
@@ -11482,7 +11482,7 @@ class Mission
 					{
 					};
 					id=1023;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 				class Item2
 				{
@@ -11497,7 +11497,7 @@ class Mission
 					{
 					};
 					id=1024;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 			};
 			class Attributes
@@ -11561,7 +11561,7 @@ class Mission
 			{
 			};
 			id=1021;
-			type="mti_factions_cis_bawhag";
+			type="rri_factions_cis_bawhag";
 		};
 		class Item69
 		{
@@ -11583,7 +11583,7 @@ class Mission
 					{
 					};
 					id=1027;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 				class Item1
 				{
@@ -11598,7 +11598,7 @@ class Mission
 					{
 					};
 					id=1028;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 				class Item2
 				{
@@ -11613,7 +11613,7 @@ class Mission
 					{
 					};
 					id=1029;
-					type="MTI_DroidBrain";
+					type="rri_DroidBrain";
 				};
 			};
 			class Attributes
@@ -11677,7 +11677,7 @@ class Mission
 			{
 			};
 			id=1026;
-			type="mti_factions_cis_bawhag";
+			type="rri_factions_cis_bawhag";
 		};
 		class Item71
 		{
@@ -11700,7 +11700,7 @@ class Mission
 					{
 					};
 					id=1030;
-					type="mti_factions_cis_B2";
+					type="rri_factions_cis_B2";
 				};
 			};
 			class Attributes
@@ -11722,7 +11722,7 @@ class Mission
 			{
 			};
 			id=1032;
-			type="mti_armoury_vehicles_laati_mk2";
+			type="rri_armoury_vehicles_laati_mk2";
 			atlOffset=0.0082702637;
 		};
 		class Item73

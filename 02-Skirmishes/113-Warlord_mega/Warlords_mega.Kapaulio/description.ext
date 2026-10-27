@@ -6,7 +6,7 @@ class CfgWLRequisitionPresets
 		{
 			class Infantry
 			{
-				class mti_armoury_trooper_unit_CR
+				class rri_armoury_trooper_unit_CR
 				{
 					cost = 100; 
 					requirements[] = {}; 
@@ -16,7 +16,7 @@ class CfgWLRequisitionPresets
 					cost = 125; 
 					requirements[] = {}; 
 				};
-				class mti_armoury_fieldsupport_unit_Medic
+				class rri_armoury_fieldsupport_unit_Medic
 				{
 					cost = 200;
 					requirements[] = {}; 
@@ -49,37 +49,37 @@ class CfgWLRequisitionPresets
 			};
 			class Vehicles
 			{
-				class MTI_Barc_Sidecar
+				class rri_Barc_Sidecar
 				{
 					cost = 350;
 					requirements[] = {};
 				};
-				class MTI_Barc
+				class rri_Barc
 				{
 					cost = 350;
 					requirements[] = {};
 				};
-				class MTI_MUTT_I
+				class rri_MUTT_I
 				{
 					cost = 300;
 					requirements[] = {};
 				};
-				class MTI_MUTT_L
+				class rri_MUTT_L
 				{
 					cost = 300;
 					requirements[] = {};
 				};
-				class MTI_ISP_Base
+				class rri_ISP_Base
 				{
 					cost = 550;
 					requirements[] = {};
 				};
-				class MTI_PX10
+				class rri_PX10
 				{
 					cost = 750;
 					requirements[] = {};
 				};
-				class MTI_PX10_R3
+				class rri_PX10_R3
 				{
 					cost = 750;
 					requirements[] = {};
@@ -114,7 +114,7 @@ class CfgWLRequisitionPresets
 					cost = 12000;
 					requirements[] = {};
 				};
-				class MTI_Juggernaut
+				class rri_Juggernaut
 				{
 					cost = 15000;
 					requirements[] = {};
@@ -156,37 +156,37 @@ class CfgWLRequisitionPresets
 
 			class Gear
 			{
-				class mti_supplies_crate_common_explosives
+				class rri_supplies_crate_common_explosives
 				{
 					cost = 200;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_medical_adv
+				class rri_supplies_crate_common_medical_adv
 				{
 					cost = 250;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_trooper_squad
+				class rri_supplies_crate_trooper_squad
 				{
 					cost = 350;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_fieldsupport_squad
+				class rri_supplies_crate_fieldsupport_squad
 				{
 					cost = 400;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_arc_squad
+				class rri_supplies_crate_arc_squad
 				{
 					cost = 550;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_ammo_gl
+				class rri_supplies_crate_common_ammo_gl
 				{
 					cost = 550;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_grenades
+				class rri_supplies_crate_common_grenades
 				{
 					cost = 450;
 					requirements[] = {};
@@ -200,19 +200,19 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class MTI_Ven_Cannon_Small
+				class rri_Ven_Cannon_Small
 				{
 					cost = 4650;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class MTI_HeavyRepeater
+				class rri_HeavyRepeater
 				{
 					cost = 550;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class MTI_Mortar
+				class rri_Mortar
 				{
 					cost = 350;
 					requirements[] = {};
@@ -230,52 +230,52 @@ class CfgWLRequisitionPresets
 		{
 			class Infantry
 			{
-				class mti_factions_cis_B1_E5
+				class rri_factions_cis_B1_E5
 				{
 					cost = 50; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_prototype_base
+				class rri_factions_cis_B1_prototype_base
 				{
 					cost = 50; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_SBB3
+				class rri_factions_cis_B1_SBB3
 				{
 					cost = 70; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_Support
+				class rri_factions_cis_B1_Support
 				{
 					cost = 100;
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_SL
+				class rri_factions_cis_B1_SL
 				{
 					cost = 150; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_Sniper
+				class rri_factions_cis_B1_Sniper
 				{
 					cost = 200; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_AT
+				class rri_factions_cis_B1_AT
 				{
 					cost = 200; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_AA
+				class rri_factions_cis_B1_AA
 				{
 					cost = 200; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_OOM_Marine
+				class rri_factions_cis_OOM_Marine
 				{
 					cost = 300; 
 					requirements[] = {}; 
 				};
-				class mti_factions_cis_B1_prototype_AT
+				class rri_factions_cis_B1_prototype_AT
 				{
 					cost = 300; 
 					requirements[] = {}; 
@@ -308,42 +308,42 @@ class CfgWLRequisitionPresets
 					cost = 400;
 					requirements[] = {};
 				};
-				class mti_factions_cis_ast
+				class rri_factions_cis_ast
 				{
 					cost = 600;
 					requirements[] = {};
 				};
-				class mti_factions_cis_GAT_Light_Olive
+				class rri_factions_cis_GAT_Light_Olive
 				{
 					cost = 1250;
 					requirements[] = {};
 				};
-				class mti_factions_cis_AAT_CIS
+				class rri_factions_cis_AAT_CIS
 				{
 					cost = 2250;
 					requirements[] = {};
 				};
-				class mti_factions_cis_GAT
+				class rri_factions_cis_GAT
 				{
 					cost = 2550;
 					requirements[] = {};
 				};
-				class mti_factions_cis_n99
+				class rri_factions_cis_n99
 				{
 					cost = 2550;
 					requirements[] = {};
 				};
-				class mti_factions_cis_MTT
+				class rri_factions_cis_MTT
 				{
 					cost = 9000;
 					requirements[] = {};
 				};
-				class mti_factions_cis_AAT_Red
+				class rri_factions_cis_AAT_Red
 				{
 					cost = 12000;
 					requirements[] = {};
 				};
-				class mti_factions_cis_AAT_Super
+				class rri_factions_cis_AAT_Super
 				{
 					cost = 20000;
 					requirements[] = {};
@@ -382,7 +382,7 @@ class CfgWLRequisitionPresets
 			};	
 			class Gear
 			{
-				class mti_supplies_crate_common_explosives
+				class rri_supplies_crate_common_explosives
 				{
 					cost = 200;
 					requirements[] = {};
@@ -392,32 +392,32 @@ class CfgWLRequisitionPresets
 					cost = 400;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_medical_adv
+				class rri_supplies_crate_common_medical_adv
 				{
 					cost = 250;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_trooper_squad
+				class rri_supplies_crate_trooper_squad
 				{
 					cost = 350;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_fieldsupport_squad
+				class rri_supplies_crate_fieldsupport_squad
 				{
 					cost = 400;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_arc_squad
+				class rri_supplies_crate_arc_squad
 				{
 					cost = 550;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_ammo_gl
+				class rri_supplies_crate_common_ammo_gl
 				{
 					cost = 550;
 					requirements[] = {};
 				};
-				class mti_supplies_crate_common_grenades
+				class rri_supplies_crate_common_grenades
 				{
 					cost = 450;
 					requirements[] = {};
@@ -425,25 +425,25 @@ class CfgWLRequisitionPresets
 			};
 			class Defences
 			{
-				class mti_factions_cis_J10s
+				class rri_factions_cis_J10s
 				{
 					cost = 450;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class MTI_HeavyRepeater
+				class rri_HeavyRepeater
 				{
 					cost = 550;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class mti_factions_cis_ParticleCannon
+				class rri_factions_cis_ParticleCannon
 				{
 					cost = 1650;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; 
 				};
-				class mti_factions_cis_J1_Leggs
+				class rri_factions_cis_J1_Leggs
 				{
 					cost = 2050;
 					requirements[] = {};

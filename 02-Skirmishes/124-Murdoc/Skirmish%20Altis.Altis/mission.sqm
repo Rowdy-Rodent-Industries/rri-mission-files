@@ -38,9 +38,9 @@ addons[]=
 	"SFA_Structure_Terminal",
 	"3AS_Structures_FOB",
 	"A3_Structures_F_Bootcamp_VR_Helpers",
-	"mti_armoury_props_logibox",
+	"rri_armoury_props_logibox",
 	"sob_compat_arsenal",
-	"mti_armoury_props_banners",
+	"rri_armoury_props_banners",
 	"3as_GNK_Prop",
 	"RSPN_Assets",
 	"A3_Characters_F",
@@ -55,7 +55,7 @@ addons[]=
 	"LRG_Medical",
 	"A3_Modules_F_Curator_Curator",
 	"OPTRE_Vehicles_Cart",
-	"mti_modules",
+	"rri_modules",
 	"A3_Modules_F",
 	"A3_Structures_F_Exp_Civilian_Accessories",
 	"ace_sitting",
@@ -90,7 +90,7 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="mti_armoury_props";
+			className="rri_armoury_props";
 			name="MokTech Industries - Props";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -187,7 +187,7 @@ class AddonsMetaData
 		};
 		class Item18
 		{
-			className="mti_modules";
+			className="rri_modules";
 			name="MokTech Industries - Modules";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -266,10 +266,10 @@ randomSeed=2269073;
 class ScenarioData
 {
 	author="CX-L-8614/92 ""Murdoc""  ";
-	overViewPicture="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
-	overViewPictureLocked="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPicture="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPictureLocked="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	onLoadMission="This is so flames.";
-	loadScreen="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	loadScreen="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	briefing=0;
 	debriefing=0;
 	saving=0;
@@ -3752,7 +3752,7 @@ class Mission
 					{
 					};
 					id=97;
-					type="mti_armoury_props_logibox_aircraft";
+					type="rri_armoury_props_logibox_aircraft";
 				};
 				class Item4
 				{
@@ -3768,7 +3768,7 @@ class Mission
 					{
 					};
 					id=98;
-					type="mti_armoury_props_logibox_crates";
+					type="rri_armoury_props_logibox_crates";
 				};
 				class Item5
 				{
@@ -3800,7 +3800,7 @@ class Mission
 					{
 					};
 					id=101;
-					type="mti_armoury_props_banners_Banner_single_Base";
+					type="rri_armoury_props_banners_Banner_single_Base";
 				};
 				class Item7
 				{
@@ -3816,7 +3816,7 @@ class Mission
 					{
 					};
 					id=102;
-					type="mti_armoury_props_banners_Banner_single_Base";
+					type="rri_armoury_props_banners_Banner_single_Base";
 				};
 				class Item8
 				{
@@ -5579,8 +5579,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -5618,8 +5618,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -5631,8 +5631,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -5683,8 +5683,8 @@ class Mission
 																								};
 																								class Attribute8
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -5733,8 +5733,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -5772,8 +5772,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -5785,8 +5785,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -5837,8 +5837,8 @@ class Mission
 																								};
 																								class Attribute8
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -5887,8 +5887,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -5926,8 +5926,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -5939,8 +5939,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -5991,8 +5991,8 @@ class Mission
 																								};
 																								class Attribute8
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -6041,8 +6041,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -6080,8 +6080,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -6093,8 +6093,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -6145,8 +6145,8 @@ class Mission
 																								};
 																								class Attribute8
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -6206,8 +6206,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -6232,8 +6232,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -6323,8 +6323,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -6414,8 +6414,8 @@ class Mission
 																								};
 																								class Attribute16
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -6474,8 +6474,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -6513,8 +6513,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -6526,8 +6526,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -6604,8 +6604,8 @@ class Mission
 																								};
 																								class Attribute10
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -6652,8 +6652,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -6678,8 +6678,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -6769,8 +6769,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -6860,8 +6860,8 @@ class Mission
 																								};
 																								class Attribute16
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -6934,8 +6934,8 @@ class Mission
 																							{
 																								class Attribute0
 																								{
-																									property="mti_common_resistance_stun";
-																									expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																									property="rri_common_resistance_stun";
+																									expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																									class Value
 																									{
 																										class data
@@ -6973,8 +6973,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -6986,8 +6986,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7064,8 +7064,8 @@ class Mission
 																								};
 																								class Attribute10
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7139,8 +7139,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7204,8 +7204,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7266,8 +7266,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7331,8 +7331,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7393,8 +7393,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7458,8 +7458,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7533,8 +7533,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7598,8 +7598,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7660,8 +7660,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7725,8 +7725,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7826,8 +7826,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7839,8 +7839,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -7927,8 +7927,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -7940,8 +7940,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8028,8 +8028,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8041,8 +8041,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8129,8 +8129,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8142,8 +8142,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8230,8 +8230,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8243,8 +8243,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8331,8 +8331,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8344,8 +8344,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8419,8 +8419,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8432,8 +8432,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8507,8 +8507,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8520,8 +8520,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8608,8 +8608,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8699,8 +8699,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8774,8 +8774,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -8865,8 +8865,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -8940,8 +8940,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9031,8 +9031,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9106,8 +9106,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9197,8 +9197,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9285,8 +9285,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9376,8 +9376,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9451,8 +9451,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9542,8 +9542,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9617,8 +9617,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9708,8 +9708,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9783,8 +9783,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -9874,8 +9874,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -9949,8 +9949,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10014,8 +10014,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10076,8 +10076,8 @@ class Mission
 																								};
 																								class Attribute1
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10141,8 +10141,8 @@ class Mission
 																								};
 																								class Attribute6
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10229,8 +10229,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10242,8 +10242,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10330,8 +10330,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10343,8 +10343,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10418,8 +10418,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10431,8 +10431,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10506,8 +10506,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10519,8 +10519,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10607,8 +10607,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10620,8 +10620,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10708,8 +10708,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10721,8 +10721,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10796,8 +10796,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10809,8 +10809,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10884,8 +10884,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -10897,8 +10897,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -10985,8 +10985,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11076,8 +11076,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11151,8 +11151,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11242,8 +11242,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11317,8 +11317,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11408,8 +11408,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11483,8 +11483,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11574,8 +11574,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11662,8 +11662,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11753,8 +11753,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11828,8 +11828,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -11919,8 +11919,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -11994,8 +11994,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12085,8 +12085,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12160,8 +12160,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12251,8 +12251,8 @@ class Mission
 																								};
 																								class Attribute9
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12352,8 +12352,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12365,8 +12365,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12378,8 +12378,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12466,8 +12466,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12479,8 +12479,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12492,8 +12492,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12593,8 +12593,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12606,8 +12606,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12619,8 +12619,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12720,8 +12720,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12733,8 +12733,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12746,8 +12746,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12847,8 +12847,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12860,8 +12860,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -12873,8 +12873,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -12974,8 +12974,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -12987,8 +12987,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13000,8 +13000,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13101,8 +13101,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13114,8 +13114,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13127,8 +13127,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13215,8 +13215,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13228,8 +13228,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13241,8 +13241,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13342,8 +13342,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13355,8 +13355,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13368,8 +13368,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13456,8 +13456,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13469,8 +13469,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13482,8 +13482,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13570,8 +13570,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13583,8 +13583,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13596,8 +13596,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13684,8 +13684,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_Pilot";
-																									expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																									property="rri_common_Pilot";
+																									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																									class Value
 																									{
 																										class data
@@ -13697,8 +13697,8 @@ class Mission
 																								};
 																								class Attribute4
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13710,8 +13710,8 @@ class Mission
 																								};
 																								class Attribute5
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13798,8 +13798,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13811,8 +13811,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13886,8 +13886,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13899,8 +13899,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -13974,8 +13974,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -13987,8 +13987,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14062,8 +14062,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14075,8 +14075,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14150,8 +14150,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14163,8 +14163,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14238,8 +14238,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14251,8 +14251,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14326,8 +14326,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14339,8 +14339,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14414,8 +14414,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14427,8 +14427,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14502,8 +14502,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14515,8 +14515,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14590,8 +14590,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14603,8 +14603,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14678,8 +14678,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14691,8 +14691,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14766,8 +14766,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14779,8 +14779,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14854,8 +14854,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14867,8 +14867,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -14942,8 +14942,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -14955,8 +14955,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -15030,8 +15030,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -15043,8 +15043,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -15118,8 +15118,8 @@ class Mission
 																								};
 																								class Attribute2
 																								{
-																									property="mti_common_Group_Preset";
-																									expression="[_this, _value] call mti_common_fnc_initPlayer";
+																									property="rri_common_Group_Preset";
+																									expression="[_this, _value] call rri_common_fnc_initPlayer";
 																									class Value
 																									{
 																										class data
@@ -15131,8 +15131,8 @@ class Mission
 																								};
 																								class Attribute3
 																								{
-																									property="mti_common_resistance_ion";
-																									expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																									property="rri_common_resistance_ion";
+																									expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																									class Value
 																									{
 																										class data
@@ -16187,13 +16187,13 @@ class Mission
 																				angles[]={-0,3.9655101,0};
 																			};
 																			id=230;
-																			type="MTI_Module_SetServicingKart";
+																			type="rri_Module_SetServicingKart";
 																			class CustomAttributes
 																			{
 																				class Attribute0
 																				{
-																					property="mti_modules_repairOnly";
-																					expression="_this setVariable ['mti_modules_repairOnly',_value,true];";
+																					property="rri_modules_repairOnly";
+																					expression="_this setVariable ['rri_modules_repairOnly',_value,true];";
 																					class Value
 																					{
 																						class data
@@ -16870,7 +16870,7 @@ class Mission
 					{
 					};
 					id=268;
-					type="mti_armoury_props_banners_Banner_Double_p2";
+					type="rri_armoury_props_banners_Banner_Double_p2";
 				};
 				class Item41
 				{
@@ -16886,7 +16886,7 @@ class Mission
 					{
 					};
 					id=269;
-					type="mti_armoury_props_banners_Banner_Double_p2";
+					type="rri_armoury_props_banners_Banner_Double_p2";
 				};
 				class Item42
 				{
@@ -16902,7 +16902,7 @@ class Mission
 					{
 					};
 					id=270;
-					type="mti_armoury_props_banners_Banner_Double_p1";
+					type="rri_armoury_props_banners_Banner_Double_p1";
 				};
 				class Item43
 				{
@@ -16918,7 +16918,7 @@ class Mission
 					{
 					};
 					id=271;
-					type="mti_armoury_props_banners_Banner_Double_p1";
+					type="rri_armoury_props_banners_Banner_Double_p1";
 				};
 				class Item44
 				{
@@ -17248,7 +17248,7 @@ class Mission
 			{
 			};
 			id=304;
-			type="mti_armoury_props_logibox_vehicles";
+			type="rri_armoury_props_logibox_vehicles";
 			atlOffset=1.9073486e-06;
 		};
 		class Item2

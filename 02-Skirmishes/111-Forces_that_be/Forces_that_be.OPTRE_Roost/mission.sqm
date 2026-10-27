@@ -33,29 +33,29 @@ addons[]=
 {
 	"3AS_Prop_Tatooine",
 	"WM_Lambda",
-	"mti_factions_imp",
+	"rri_factions_imp",
 	"3AS_Weapons_Imperial",
-	"mti_weapons_handgun",
+	"rri_weapons_handgun",
 	"A3_Weapons_F_Acc",
 	"ace_realisticnames",
-	"mti_weapons_core",
+	"rri_weapons_core",
 	"A3_Weapons_F",
 	"JLTS_weapons_Core",
 	"JLTS_radios",
 	"3AS_Equipment",
 	"A3_Weapons_F_Items",
 	"ace_medical_treatment",
-	"mti_medical",
+	"rri_medical",
 	"ace_trenches",
 	"ace_chemlights",
 	"TKE_Grenades",
-	"mti_drones",
+	"rri_drones",
 	"ace_fortify",
 	"ace_flashlights",
 	"ace_arsenal",
 	"ace_logistics_wirecutter",
 	"TKE_MD",
-	"mti_explosives",
+	"rri_explosives",
 	"SWLW_clones_spec_explosives",
 	"A3_Weapons_F_Explosives",
 	"ace_explosives",
@@ -64,7 +64,7 @@ addons[]=
 	"adapterusSUSmellee",
 	"APR_IMS_iconRework",
 	"ace_grenades",
-	"mti_weapons_launcher",
+	"rri_weapons_launcher",
 	"OPTRE_Weapons_Ammo",
 	"TKE_UCN",
 	"3AS_Weapons_S5",
@@ -73,12 +73,12 @@ addons[]=
 	"LF_Medicial_Pack",
 	"sfaBoosts",
 	"A3_Drones_F_Weapons_F_Gamma_Items",
-	"mti_cuffbreak",
-	"mti_catTab_data",
-	"mti_tech",
-	"mti_minedetector",
+	"rri_cuffbreak",
+	"rri_catTab_data",
+	"rri_tech",
+	"rri_minedetector",
 	"OPTRE_Weapons_SMG",
-	"mti_weapons_bc",
+	"rri_weapons_bc",
 	"A3_Ui_F",
 	"A3_Modules_F_Curator_Curator",
 	"3as_GNK_Prop",
@@ -104,7 +104,7 @@ class AddonsMetaData
 		};
 		class Item2
 		{
-			className="mti_factions_imp";
+			className="rri_factions_imp";
 			name="MokTech Industries - Imperial";
 			author="MokTech Industries";
 		};
@@ -116,7 +116,7 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="mti_weapons_handgun";
+			className="rri_weapons_handgun";
 			name="MokTech Industries - Weapons (Handguns)";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -137,7 +137,7 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="mti_weapons_core";
+			className="rri_weapons_core";
 			name="MokTech Industries - Weapons";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -169,7 +169,7 @@ class AddonsMetaData
 		};
 		class Item12
 		{
-			className="mti_medical";
+			className="rri_medical";
 			name="MokTech Industries - Medical";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -195,7 +195,7 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className="mti_drones";
+			className="rri_drones";
 			name="MokTech Industries - Drones";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -236,7 +236,7 @@ class AddonsMetaData
 		};
 		class Item22
 		{
-			className="mti_explosives";
+			className="rri_explosives";
 			name="MokTech Industries - Explosives";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -286,7 +286,7 @@ class AddonsMetaData
 		};
 		class Item30
 		{
-			className="mti_weapons_launcher";
+			className="rri_weapons_launcher";
 			name="MokTech Industries - Weapons (Launchers)";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -329,34 +329,34 @@ class AddonsMetaData
 		};
 		class Item37
 		{
-			className="mti_cuffbreak";
+			className="rri_cuffbreak";
 			name="MokTech Industries - CuffBreak";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item38
 		{
-			className="mti_catTab_data";
+			className="rri_catTab_data";
 			name="MokTech Industries - catTab (Data)";
 			author="MokTech Industries";
 		};
 		class Item39
 		{
-			className="mti_tech";
+			className="rri_tech";
 			name="MokTech Industries - Tech";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item40
 		{
-			className="mti_minedetector";
+			className="rri_minedetector";
 			name="MokTech Industries - MineDetector";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item41
 		{
-			className="mti_weapons_bc";
+			className="rri_weapons_bc";
 			name="MokTech Industries - Weapons - BC Compat";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -683,30 +683,30 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E11";
+								name="rri_factions_imp_E11";
 								optics="3AS_Imp_Optic_E11";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E11:Burst";
+								firemode="rri_factions_imp_E11:Burst";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class handgun
 							{
-								name="MTI_SE14R";
+								name="rri_SE14R";
 								optics="3AS_Imp_Optic_SE14R";
 								flashlight="acc_flashlight";
 								class primaryMuzzleMag
 								{
-									name="MTI_SE14R_mag";
+									name="rri_SE14R_mag";
 									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Sand";
+								typeName="rri_factions_imp_uniform_Sand";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -734,7 +734,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=1;
 									};
 									class Item2
@@ -749,7 +749,7 @@ class Mission
 									};
 									class Item4
 									{
-										name="MTI_Medisensor";
+										name="rri_Medisensor";
 										count=1;
 									};
 									class Item5
@@ -764,7 +764,7 @@ class Mission
 									};
 									class Item7
 									{
-										name="MTI_Symoxin";
+										name="rri_Symoxin";
 										count=1;
 									};
 									class Item8
@@ -796,7 +796,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Pauldron";
+								typeName="rri_factions_imp_vest_Pauldron";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -821,19 +821,19 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=25;
 										ammoLeft=30;
 									};
 									class Item5
 									{
-										name="MTI_SE14R_mag";
+										name="rri_SE14R_mag";
 										count=14;
 										ammoLeft=30;
 									};
@@ -857,19 +857,19 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=31;
 										ammoLeft=30;
 									};
 									class Item1
 									{
-										name="MTI_SE14R_mag";
+										name="rri_SE14R_mag";
 										count=10;
 										ammoLeft=30;
 									};
 									class Item2
 									{
-										name="MTI_Grenade_ShadowVirus";
+										name="rri_Grenade_ShadowVirus";
 										count=2;
 										ammoLeft=1;
 									};
@@ -881,7 +881,7 @@ class Mission
 									};
 									class Item4
 									{
-										name="mti_drones_auto_turret_packed";
+										name="rri_drones_auto_turret_packed";
 										count=2;
 										ammoLeft=1;
 									};
@@ -891,12 +891,12 @@ class Mission
 									items=10;
 									class Item0
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=40;
 									};
 									class Item1
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=18;
 									};
 									class Item2
@@ -906,7 +906,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_Inhaler";
+										name="rri_Inhaler";
 										count=1;
 									};
 									class Item4
@@ -916,7 +916,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=2;
 									};
 									class Item6
@@ -946,11 +946,11 @@ class Mission
 							watch="ItemWatch";
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
-							headgear="mti_factions_imp_helmet_Sand";
+							headgear="rri_factions_imp_helmet_Sand";
 						};
 					};
 					id=8;
-					type="mti_factions_imp_unit_Sand_SQL";
+					type="rri_factions_imp_unit_Sand_SQL";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -999,16 +999,16 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_SX21";
+								name="rri_factions_imp_SX21";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Scatter_Mag";
+									name="rri_factions_imp_Scatter_Mag";
 									ammoLeft=12;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Sand";
+								typeName="rri_factions_imp_uniform_Sand";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1036,7 +1036,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=1;
 									};
 									class Item2
@@ -1048,14 +1048,14 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Elite";
+								typeName="rri_factions_imp_vest_Elite";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=3;
 									class Item0
 									{
-										name="mti_factions_imp_Scatter_Mag";
+										name="rri_factions_imp_Scatter_Mag";
 										count=21;
 										ammoLeft=12;
 									};
@@ -1067,7 +1067,7 @@ class Mission
 									};
 									class Item2
 									{
-										name="MTI_MED_Mag";
+										name="rri_MED_Mag";
 										count=1;
 										ammoLeft=1;
 									};
@@ -1091,7 +1091,7 @@ class Mission
 									items=4;
 									class Item0
 									{
-										name="mti_factions_imp_Scatter_Mag";
+										name="rri_factions_imp_Scatter_Mag";
 										count=20;
 										ammoLeft=12;
 									};
@@ -1119,7 +1119,7 @@ class Mission
 									items=3;
 									class Item0
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 									class Item1
@@ -1140,11 +1140,11 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="TKE_MDChestRig2GLBlack";
-							headgear="mti_factions_imp_helmet_Sand";
+							headgear="rri_factions_imp_helmet_Sand";
 						};
 					};
 					id=13;
-					type="mti_factions_imp_unit_Sand";
+					type="rri_factions_imp_unit_Sand";
 					atlOffset=0.00010967255;
 					class CustomAttributes
 					{
@@ -1207,7 +1207,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Incinerator";
+								typeName="rri_factions_imp_uniform_Incinerator";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1241,7 +1241,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=1;
 									};
 									class Item2
@@ -1253,7 +1253,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Elite";
+								typeName="rri_factions_imp_vest_Elite";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1274,7 +1274,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_factions_imp_backpack_Incinerator_B";
+								typeName="rri_factions_imp_backpack_Incinerator_B";
 								isBackpack=1;
 								class MagazineCargo
 								{
@@ -1298,11 +1298,11 @@ class Mission
 							watch="ItemWatch";
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
-							headgear="mti_factions_imp_helmet_Incinerator";
+							headgear="rri_factions_imp_helmet_Incinerator";
 						};
 					};
 					id=16;
-					type="mti_factions_imp_unit_Incinerator";
+					type="rri_factions_imp_unit_Incinerator";
 				};
 				class Item3
 				{
@@ -1337,16 +1337,16 @@ class Mission
 							};
 							class secondaryWeapon
 							{
-								name="MTI_RPS6_HP";
+								name="rri_RPS6_HP";
 								class primaryMuzzleMag
 								{
-									name="MTI_RPS6_HP_mag_AT";
+									name="rri_RPS6_HP_mag_AT";
 									ammoLeft=1;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Sand";
+								typeName="rri_factions_imp_uniform_Sand";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1380,7 +1380,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=1;
 									};
 									class Item2
@@ -1392,7 +1392,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Elite";
+								typeName="rri_factions_imp_vest_Elite";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1405,7 +1405,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_MED_Mag";
+										name="rri_MED_Mag";
 										count=1;
 										ammoLeft=1;
 									};
@@ -1467,7 +1467,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_RPS6_HP_mag_AT";
+										name="rri_RPS6_HP_mag_AT";
 										count=3;
 										ammoLeft=1;
 									};
@@ -1483,7 +1483,7 @@ class Mission
 									items=3;
 									class Item0
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 									class Item1
@@ -1504,11 +1504,11 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="TKE_MDChestRig2GLBlack";
-							headgear="mti_factions_imp_helmet_Sand";
+							headgear="rri_factions_imp_helmet_Sand";
 						};
 					};
 					id=18;
-					type="mti_factions_imp_unit_Sand";
+					type="rri_factions_imp_unit_Sand";
 					atlOffset=12.063;
 					class CustomAttributes
 					{
@@ -1558,25 +1558,25 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_DLT19";
+								name="rri_factions_imp_DLT19";
 								optics="3AS_Imp_Optic_1";
-								firemode="mti_factions_imp_DLT19:Single";
+								firemode="rri_factions_imp_DLT19:Single";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_MG_Red_Mag";
+									name="rri_factions_imp_MG_Red_Mag";
 									ammoLeft=200;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=3;
 									class Item0
 									{
-										name="mti_factions_imp_MG_Red_Mag";
+										name="rri_factions_imp_MG_Red_Mag";
 										count=4;
 										ammoLeft=200;
 									};
@@ -1598,7 +1598,7 @@ class Mission
 									items=4;
 									class Item0
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=2;
 									};
 									class Item1
@@ -1620,14 +1620,14 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=3;
 									class Item0
 									{
-										name="mti_factions_imp_MG_Red_Mag";
+										name="rri_factions_imp_MG_Red_Mag";
 										count=20;
 										ammoLeft=200;
 									};
@@ -1639,7 +1639,7 @@ class Mission
 									};
 									class Item2
 									{
-										name="mti_drones_auto_turret_packed";
+										name="rri_drones_auto_turret_packed";
 										count=2;
 										ammoLeft=1;
 									};
@@ -1647,20 +1647,20 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_factions_imp_backpack_Army";
+								typeName="rri_factions_imp_backpack_Army";
 								isBackpack=1;
 								class MagazineCargo
 								{
 									items=2;
 									class Item0
 									{
-										name="mti_factions_imp_MG_Red_Mag";
+										name="rri_factions_imp_MG_Red_Mag";
 										count=25;
 										ammoLeft=200;
 									};
 									class Item1
 									{
-										name="mti_drones_auto_turret_packed";
+										name="rri_drones_auto_turret_packed";
 										count=2;
 										ammoLeft=1;
 									};
@@ -1696,11 +1696,11 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="TKE_UCMCLegPouch";
-							headgear="mti_factions_imp_helmet_ABase_S";
+							headgear="rri_factions_imp_helmet_ABase_S";
 						};
 					};
 					id=24;
-					type="mti_factions_imp_unit_Enforcer";
+					type="rri_factions_imp_unit_Enforcer";
 					atlOffset=0.00014305115;
 					class CustomAttributes
 					{
@@ -1750,12 +1750,12 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E11";
+								name="rri_factions_imp_E11";
 								optics="3AS_Imp_Optic_1";
-								firemode="mti_factions_imp_E11:Burst";
+								firemode="rri_factions_imp_E11:Burst";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
@@ -1770,26 +1770,26 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
 									class Item1
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item2
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -1810,7 +1810,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -1822,14 +1822,14 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=2;
 									class Item0
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=25;
 										ammoLeft=30;
 									};
@@ -1865,7 +1865,7 @@ class Mission
 									};
 									class Item4
 									{
-										name="MTI_Inhaler";
+										name="rri_Inhaler";
 										count=4;
 									};
 									class Item5
@@ -1904,7 +1904,7 @@ class Mission
 									items=1;
 									class Item0
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=11;
 										ammoLeft=30;
 									};
@@ -1914,12 +1914,12 @@ class Mission
 									items=18;
 									class Item0
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=80;
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=60;
 									};
 									class Item2
@@ -1939,7 +1939,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_PBA";
+										name="rri_PBA";
 										count=9;
 									};
 									class Item6
@@ -1959,7 +1959,7 @@ class Mission
 									};
 									class Item9
 									{
-										name="MTI_Vutalamine";
+										name="rri_Vutalamine";
 										count=3;
 									};
 									class Item10
@@ -1969,7 +1969,7 @@ class Mission
 									};
 									class Item11
 									{
-										name="MTI_Symoxin";
+										name="rri_Symoxin";
 										count=12;
 									};
 									class Item12
@@ -2014,7 +2014,7 @@ class Mission
 						};
 					};
 					id=25;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=7.6293945e-06;
 					class CustomAttributes
 					{
@@ -2075,7 +2075,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -2098,7 +2098,7 @@ class Mission
 									items=4;
 									class Item0
 									{
-										name="MTI_BactaPatch";
+										name="rri_BactaPatch";
 										count=2;
 									};
 									class Item1
@@ -2120,54 +2120,54 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 								class ItemCargo
 								{
 									items=9;
 									class Item0
 									{
-										name="mti_drones_prowler1500_packed";
+										name="rri_drones_prowler1500_packed";
 										count=1;
 									};
 									class Item1
 									{
-										name="mti_drones_prowler500_packed";
+										name="rri_drones_prowler500_packed";
 										count=1;
 									};
 									class Item2
 									{
-										name="mti_drones_MSE6_Spyro_packed";
+										name="rri_drones_MSE6_Spyro_packed";
 										count=1;
 									};
 									class Item3
 									{
-										name="mti_drones_mse6_gmc_packed";
+										name="rri_drones_mse6_gmc_packed";
 										count=1;
 									};
 									class Item4
 									{
-										name="mti_drones_mse6_packed";
+										name="rri_drones_mse6_packed";
 										count=1;
 									};
 									class Item5
 									{
-										name="MTI_CableTie_Heavy";
+										name="rri_CableTie_Heavy";
 										count=13;
 									};
 									class Item6
 									{
-										name="MTI_catTab_tablet";
+										name="rri_catTab_tablet";
 										count=1;
 									};
 									class Item7
 									{
-										name="mti_tech_shadowpad";
+										name="rri_tech_shadowpad";
 										count=1;
 									};
 									class Item8
 									{
-										name="MTI_Detector";
+										name="rri_Detector";
 										count=1;
 									};
 								};
@@ -2191,7 +2191,7 @@ class Mission
 									items=1;
 									class Item0
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=45;
 									};
 								};
@@ -2202,11 +2202,11 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="B_UavTerminal";
 							goggles="TKE_UCMCLegPouch";
-							headgear="mti_factions_imp_helmet_ABase_S";
+							headgear="rri_factions_imp_helmet_ABase_S";
 						};
 					};
 					id=26;
-					type="mti_factions_imp_unit_Enforcer";
+					type="rri_factions_imp_unit_Enforcer";
 					atlOffset=0.015775681;
 					class CustomAttributes
 					{
@@ -2255,42 +2255,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -2302,7 +2302,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -2317,7 +2317,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -2329,7 +2329,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -2341,13 +2341,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -2359,13 +2359,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -2435,7 +2435,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -2451,7 +2451,7 @@ class Mission
 						};
 					};
 					id=29;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item8
@@ -2470,42 +2470,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -2517,7 +2517,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -2532,7 +2532,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -2544,7 +2544,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -2556,13 +2556,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -2574,13 +2574,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -2650,7 +2650,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -2666,7 +2666,7 @@ class Mission
 						};
 					};
 					id=31;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item9
@@ -2685,42 +2685,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -2732,7 +2732,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -2747,7 +2747,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -2759,7 +2759,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -2771,13 +2771,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -2789,13 +2789,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -2865,7 +2865,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -2881,7 +2881,7 @@ class Mission
 						};
 					};
 					id=33;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item10
@@ -2900,42 +2900,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -2947,7 +2947,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -2962,7 +2962,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -2974,7 +2974,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -2986,13 +2986,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -3004,13 +3004,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -3080,7 +3080,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -3096,7 +3096,7 @@ class Mission
 						};
 					};
 					id=35;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item11
@@ -3115,42 +3115,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -3162,7 +3162,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -3177,7 +3177,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -3189,7 +3189,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -3201,13 +3201,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -3219,13 +3219,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -3295,7 +3295,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -3311,7 +3311,7 @@ class Mission
 						};
 					};
 					id=37;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item12
@@ -3330,42 +3330,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -3377,7 +3377,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -3392,7 +3392,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -3404,7 +3404,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -3416,13 +3416,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -3434,13 +3434,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -3510,7 +3510,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -3526,7 +3526,7 @@ class Mission
 						};
 					};
 					id=39;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item13
@@ -3545,42 +3545,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -3592,7 +3592,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -3607,7 +3607,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -3619,7 +3619,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -3631,13 +3631,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -3649,13 +3649,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -3725,7 +3725,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -3741,7 +3741,7 @@ class Mission
 						};
 					};
 					id=41;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item14
@@ -3760,42 +3760,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -3807,7 +3807,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -3822,7 +3822,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -3834,7 +3834,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -3846,13 +3846,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -3864,13 +3864,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -3940,7 +3940,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -3956,7 +3956,7 @@ class Mission
 						};
 					};
 					id=43;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item15
@@ -3975,42 +3975,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -4022,7 +4022,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -4037,7 +4037,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -4049,7 +4049,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -4061,13 +4061,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -4079,13 +4079,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -4155,7 +4155,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -4171,7 +4171,7 @@ class Mission
 						};
 					};
 					id=45;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 				};
 				class Item16
 				{
@@ -4189,42 +4189,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -4236,7 +4236,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -4251,7 +4251,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -4263,7 +4263,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -4275,13 +4275,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -4293,13 +4293,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -4369,7 +4369,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -4385,7 +4385,7 @@ class Mission
 						};
 					};
 					id=47;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item17
@@ -4404,42 +4404,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -4451,7 +4451,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -4466,7 +4466,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -4478,7 +4478,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -4490,13 +4490,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -4508,13 +4508,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -4584,7 +4584,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -4600,7 +4600,7 @@ class Mission
 						};
 					};
 					id=49;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item18
@@ -4619,42 +4619,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -4666,7 +4666,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -4681,7 +4681,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -4693,7 +4693,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -4705,13 +4705,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -4723,13 +4723,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -4799,7 +4799,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -4815,7 +4815,7 @@ class Mission
 						};
 					};
 					id=51;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item19
@@ -4834,42 +4834,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -4881,7 +4881,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -4896,7 +4896,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -4908,7 +4908,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -4920,13 +4920,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -4938,13 +4938,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -5014,7 +5014,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -5030,7 +5030,7 @@ class Mission
 						};
 					};
 					id=53;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 				};
 				class Item20
 				{
@@ -5048,42 +5048,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -5095,7 +5095,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -5110,7 +5110,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -5122,7 +5122,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -5134,13 +5134,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -5152,13 +5152,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -5228,7 +5228,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -5244,7 +5244,7 @@ class Mission
 						};
 					};
 					id=55;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item21
@@ -5263,42 +5263,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -5310,7 +5310,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -5325,7 +5325,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -5337,7 +5337,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -5349,13 +5349,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -5367,13 +5367,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -5443,7 +5443,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -5459,7 +5459,7 @@ class Mission
 						};
 					};
 					id=57;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item22
@@ -5478,42 +5478,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -5525,7 +5525,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -5540,7 +5540,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -5552,7 +5552,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -5564,13 +5564,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -5582,13 +5582,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -5658,7 +5658,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -5674,7 +5674,7 @@ class Mission
 						};
 					};
 					id=59;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item23
@@ -5693,42 +5693,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -5740,7 +5740,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -5755,7 +5755,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -5767,7 +5767,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -5779,13 +5779,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -5797,13 +5797,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -5873,7 +5873,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -5889,7 +5889,7 @@ class Mission
 						};
 					};
 					id=61;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item24
@@ -5908,42 +5908,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -5955,7 +5955,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -5970,7 +5970,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -5982,7 +5982,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -5994,13 +5994,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -6012,13 +6012,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -6088,7 +6088,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -6104,7 +6104,7 @@ class Mission
 						};
 					};
 					id=63;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item25
@@ -6123,42 +6123,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -6170,7 +6170,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -6185,7 +6185,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -6197,7 +6197,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -6209,13 +6209,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -6227,13 +6227,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -6303,7 +6303,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -6319,7 +6319,7 @@ class Mission
 						};
 					};
 					id=65;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item26
@@ -6338,42 +6338,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -6385,7 +6385,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -6400,7 +6400,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -6412,7 +6412,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -6424,13 +6424,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -6442,13 +6442,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -6518,7 +6518,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -6534,7 +6534,7 @@ class Mission
 						};
 					};
 					id=67;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item27
@@ -6553,42 +6553,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -6600,7 +6600,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -6615,7 +6615,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -6627,7 +6627,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -6639,13 +6639,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -6657,13 +6657,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -6733,7 +6733,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -6749,7 +6749,7 @@ class Mission
 						};
 					};
 					id=69;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item28
@@ -6768,42 +6768,42 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="mti_factions_imp_E10";
+								name="rri_factions_imp_E10";
 								optics="OPTRE_M7_Sight";
 								muzzle="3AS_Imp_Muzzle_DLT19x";
 								flashlight="3AS_Imp_Light_E11";
-								firemode="mti_factions_imp_E10:FullAuto";
+								firemode="rri_factions_imp_E10:FullAuto";
 								class primaryMuzzleMag
 								{
-									name="mti_factions_imp_Rifle_Red_Mag";
+									name="rri_factions_imp_Rifle_Red_Mag";
 									ammoLeft=30;
 								};
 							};
 							class secondaryWeapon
 							{
-								name="MTI_DP23_bcsewpn";
+								name="rri_DP23_bcsewpn";
 								class primaryMuzzleMag
 								{
-									name="MTI_DP23_mag";
+									name="rri_DP23_mag";
 									ammoLeft=20;
 								};
 							};
 							class uniform
 							{
-								typeName="mti_factions_imp_uniform_Security";
+								typeName="rri_factions_imp_uniform_Security";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=4;
 									class Item0
 									{
-										name="MTI_SonicDet";
+										name="rri_SonicDet";
 										count=2;
 										ammoLeft=1;
 									};
 									class Item1
 									{
-										name="MTI_Grenade_Halothane";
+										name="rri_Grenade_Halothane";
 										count=2;
 										ammoLeft=1;
 									};
@@ -6815,7 +6815,7 @@ class Mission
 									};
 									class Item3
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=8;
 										ammoLeft=30;
 									};
@@ -6830,7 +6830,7 @@ class Mission
 									};
 									class Item1
 									{
-										name="MTI_BactaSpray";
+										name="rri_BactaSpray";
 										count=1;
 									};
 									class Item2
@@ -6842,7 +6842,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_factions_imp_vest_Army_Base_S";
+								typeName="rri_factions_imp_vest_Army_Base_S";
 								isBackpack=0;
 							};
 							class backpack
@@ -6854,13 +6854,13 @@ class Mission
 									items=5;
 									class Item0
 									{
-										name="MTI_DP23_mag_slug";
+										name="rri_DP23_mag_slug";
 										count=17;
 										ammoLeft=6;
 									};
 									class Item1
 									{
-										name="MTI_DP23_mag";
+										name="rri_DP23_mag";
 										count=20;
 										ammoLeft=20;
 									};
@@ -6872,13 +6872,13 @@ class Mission
 									};
 									class Item3
 									{
-										name="MTI_ThermalDetonator";
+										name="rri_ThermalDetonator";
 										count=3;
 										ammoLeft=1;
 									};
 									class Item4
 									{
-										name="mti_factions_imp_Rifle_Red_Mag";
+										name="rri_factions_imp_Rifle_Red_Mag";
 										count=60;
 										ammoLeft=30;
 									};
@@ -6948,7 +6948,7 @@ class Mission
 									};
 									class Item12
 									{
-										name="MTI_Clacker";
+										name="rri_Clacker";
 										count=1;
 									};
 								};
@@ -6964,7 +6964,7 @@ class Mission
 						};
 					};
 					id=71;
-					type="mti_factions_imp_unit_Security";
+					type="rri_factions_imp_unit_Security";
 					atlOffset=0.015721083;
 				};
 				class Item29
@@ -6981,7 +6981,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=75;
-					type="mti_factions_imp_unit_Artillery_M";
+					type="rri_factions_imp_unit_Artillery_M";
 					atlOffset=0.016220093;
 					class CustomAttributes
 					{
@@ -7153,7 +7153,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E10";
+													value="rri_factions_imp_E10";
 												};
 											};
 											class Item1
@@ -7161,7 +7161,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E11";
+													value="rri_factions_imp_E11";
 												};
 											};
 											class Item2
@@ -7169,7 +7169,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E11D";
+													value="rri_factions_imp_E11D";
 												};
 											};
 											class Item3
@@ -7177,7 +7177,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_Blastcannon";
+													value="rri_factions_imp_Blastcannon";
 												};
 											};
 											class Item4
@@ -7185,7 +7185,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E11_Stealth";
+													value="rri_factions_imp_E11_Stealth";
 												};
 											};
 											class Item5
@@ -7193,7 +7193,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_T20";
+													value="rri_T20";
 												};
 											};
 											class Item6
@@ -7201,7 +7201,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_T21";
+													value="rri_T21";
 												};
 											};
 											class Item7
@@ -7217,7 +7217,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_BactaSpray";
+													value="rri_BactaSpray";
 												};
 											};
 											class Item9
@@ -7529,7 +7529,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E11D_Mag";
+													value="rri_factions_imp_E11D_Mag";
 												};
 											};
 											class Item48
@@ -7537,7 +7537,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_Shotgun_Buckshot";
+													value="rri_factions_imp_Shotgun_Buckshot";
 												};
 											};
 											class Item49
@@ -7545,7 +7545,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_stun_mag";
+													value="rri_stun_mag";
 												};
 											};
 											class Item50
@@ -7553,7 +7553,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_T20_mag";
+													value="rri_T20_mag";
 												};
 											};
 											class Item51
@@ -7569,7 +7569,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_stealth_mag";
+													value="rri_stealth_mag";
 												};
 											};
 											class Item53
@@ -7577,7 +7577,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Red_Mag_MG";
+													value="rri_Red_Mag_MG";
 												};
 											};
 											class Item54
@@ -7585,7 +7585,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_Rifle_Red_Mag";
+													value="rri_factions_imp_Rifle_Red_Mag";
 												};
 											};
 											class Item55
@@ -7601,7 +7601,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_Shotgun_Slug";
+													value="rri_factions_imp_Shotgun_Slug";
 												};
 											};
 											class Item57
@@ -7641,7 +7641,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_pointerIR_noModel";
+													value="rri_pointerIR_noModel";
 												};
 											};
 											class Item62
@@ -7673,7 +7673,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_flashlight_noModel";
+													value="rri_flashlight_noModel";
 												};
 											};
 											class Item66
@@ -7705,7 +7705,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_red";
+													value="rri_Holosight_red";
 												};
 											};
 											class Item70
@@ -7713,7 +7713,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_blu";
+													value="rri_HMRCO_blu";
 												};
 											};
 											class Item71
@@ -7721,7 +7721,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_blu";
+													value="rri_HRCO_blu";
 												};
 											};
 											class Item72
@@ -7729,7 +7729,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_red";
+													value="rri_HRCO_red";
 												};
 											};
 											class Item73
@@ -7745,7 +7745,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_red";
+													value="rri_HMRCO_red";
 												};
 											};
 											class Item75
@@ -7753,7 +7753,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_blu";
+													value="rri_Holosight_blu";
 												};
 											};
 											class Item76
@@ -7761,7 +7761,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_grn";
+													value="rri_HRCO_grn";
 												};
 											};
 											class Item77
@@ -7777,7 +7777,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_grn";
+													value="rri_Holosight_grn";
 												};
 											};
 											class Item79
@@ -7793,7 +7793,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_grn";
+													value="rri_HMRCO_grn";
 												};
 											};
 											class Item81

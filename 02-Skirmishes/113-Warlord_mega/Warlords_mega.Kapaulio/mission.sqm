@@ -28,8 +28,8 @@ sourceName="Warlords_mega";
 addons[]=
 {
 	"A3_Modules_F_Warlords",
-	"mti_factions_cis",
-	"mti_armoury_trooper",
+	"rri_factions_cis",
+	"rri_armoury_trooper",
 	"JLTS_weapons_DC15A",
 	"NCA_weapons_testbedBlaster",
 	"JLTS_weapons_Core",
@@ -44,12 +44,12 @@ addons[]=
 	"ace_realisticnames",
 	"ace_attach",
 	"ace_chemlights",
-	"mti_arsenal",
+	"rri_arsenal",
 	"SFA_Structure_Droids",
 	"SWLB_units",
 	"A3_Modules_F_Curator_Curator",
 	"ls_providence",
-	"mti_capitalships"
+	"rri_capitalships"
 };
 class AddonsMetaData
 {
@@ -65,13 +65,13 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="mti_factions_cis";
+			className="rri_factions_cis";
 			name="MokTech Industries - CIS";
 			author="MokTech Industries";
 		};
 		class Item2
 		{
-			className="mti_armoury_trooper";
+			className="rri_armoury_trooper";
 			name="MokTech Industries - Trooper";
 			author="MokTech Industries";
 		};
@@ -160,7 +160,7 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className="mti_arsenal";
+			className="rri_arsenal";
 			name="MokTech Industries - Arsenal";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -191,7 +191,7 @@ class AddonsMetaData
 		};
 		class Item21
 		{
-			className="mti_capitalships";
+			className="rri_capitalships";
 			name="MokTech Industries - Capital Ships";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -3072,7 +3072,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=48;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3108,7 +3108,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=18;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3143,7 +3143,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=20;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3178,7 +3178,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=22;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3213,7 +3213,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=24;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3248,7 +3248,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=26;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3283,7 +3283,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=28;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3318,7 +3318,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=30;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3353,7 +3353,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=32;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3388,7 +3388,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=34;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3422,7 +3422,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=59;
-					type="mti_factions_cis_B2";
+					type="rri_factions_cis_B2";
 					atlOffset=-7.6293945e-06;
 				};
 				class Item11
@@ -3441,7 +3441,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=36;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3476,7 +3476,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=38;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3511,7 +3511,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=40;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3546,7 +3546,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=42;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3581,7 +3581,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=44;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=7.6293945e-06;
 					class CustomAttributes
 					{
@@ -3617,7 +3617,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=46;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					atlOffset=7.6293945e-06;
 					class CustomAttributes
 					{
@@ -3653,7 +3653,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=50;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3688,7 +3688,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=52;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3723,7 +3723,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=54;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3758,7 +3758,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=56;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3793,7 +3793,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=58;
-					type="mti_factions_cis_B1_E5";
+					type="rri_factions_cis_B1_E5";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3827,7 +3827,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=61;
-					type="mti_factions_cis_B2";
+					type="rri_factions_cis_B2";
 				};
 			};
 			class Attributes
@@ -3889,7 +3889,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -3913,7 +3913,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -3958,7 +3958,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -3967,12 +3967,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=103;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4039,7 +4039,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4063,7 +4063,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4108,7 +4108,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4117,12 +4117,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=63;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4189,7 +4189,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4213,7 +4213,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4258,7 +4258,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4267,12 +4267,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=65;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4339,7 +4339,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4363,7 +4363,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4408,7 +4408,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4417,12 +4417,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=67;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4489,7 +4489,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4513,7 +4513,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4558,7 +4558,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4567,12 +4567,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=69;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4639,7 +4639,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4663,7 +4663,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4708,7 +4708,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4717,12 +4717,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=71;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4789,7 +4789,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4813,7 +4813,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4858,7 +4858,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -4867,12 +4867,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=73;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -4939,7 +4939,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4963,7 +4963,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5008,7 +5008,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5017,12 +5017,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=75;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5089,7 +5089,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5113,7 +5113,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5158,7 +5158,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5167,12 +5167,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=77;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5239,7 +5239,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5263,7 +5263,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5308,7 +5308,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5317,12 +5317,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=79;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5389,7 +5389,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5413,7 +5413,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5458,7 +5458,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5467,12 +5467,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=81;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5539,7 +5539,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5563,7 +5563,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5608,7 +5608,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5617,12 +5617,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=83;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5689,7 +5689,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5713,7 +5713,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5758,7 +5758,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5767,12 +5767,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=85;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5839,7 +5839,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5863,7 +5863,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5908,7 +5908,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -5917,12 +5917,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=87;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -5989,7 +5989,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6013,7 +6013,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6058,7 +6058,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6067,12 +6067,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=89;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6139,7 +6139,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6163,7 +6163,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6208,7 +6208,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6217,12 +6217,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=91;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6289,7 +6289,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6313,7 +6313,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6358,7 +6358,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6367,12 +6367,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=93;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6439,7 +6439,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6463,7 +6463,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6508,7 +6508,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6517,12 +6517,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=95;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6589,7 +6589,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6613,7 +6613,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6658,7 +6658,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6667,12 +6667,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=97;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6739,7 +6739,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6763,7 +6763,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6808,7 +6808,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6817,12 +6817,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=99;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -6889,7 +6889,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6913,7 +6913,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -6958,7 +6958,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -6967,12 +6967,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=101;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -7039,7 +7039,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7063,7 +7063,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7108,7 +7108,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -7117,12 +7117,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=105;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -7189,7 +7189,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7213,7 +7213,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7258,7 +7258,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -7267,12 +7267,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=107;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -7339,7 +7339,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7363,7 +7363,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7408,7 +7408,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -7417,12 +7417,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=109;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -7489,7 +7489,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="mti_armoury_trooper_uniform_CR";
+								typeName="rri_armoury_trooper_uniform_CR";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7513,7 +7513,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mti_armoury_trooper_vest_base";
+								typeName="rri_armoury_trooper_vest_base";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7558,7 +7558,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mti_armoury_trooper_backpack_belt_bag";
+								typeName="rri_armoury_trooper_backpack_belt_bag";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -7567,12 +7567,12 @@ class Mission
 							radio="JLTS_clone_comlink";
 							gps="ItemGPS";
 							goggles="JLTS_Clone_helmetInterior_P2";
-							hmd="mti_armoury_trooper_nvg_Chip";
+							hmd="rri_armoury_trooper_nvg_Chip";
 							headgear="SEA_Helmet_P1_Base";
 						};
 					};
 					id=111;
-					type="mti_armoury_trooper_unit_CT";
+					type="rri_armoury_trooper_unit_CT";
 					atlOffset=-3.8146973e-06;
 					class CustomAttributes
 					{
@@ -7614,13 +7614,13 @@ class Mission
 				dynamicSimulation=1;
 			};
 			id=112;
-			type="mti_arsenal_trooper";
+			type="rri_arsenal_trooper";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="mti_arsenal_Arsenal_Preset";
-					expression="if (_value > 0) then {[_this, _value] call mti_arsenal_fnc_initArsenal;}";
+					property="rri_arsenal_Arsenal_Preset";
+					expression="if (_value > 0) then {[_this, _value] call rri_arsenal_fnc_initArsenal;}";
 					class Value
 					{
 						class data
@@ -7676,7 +7676,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_EE2";
+													value="rri_EE2";
 												};
 											};
 											class Item1
@@ -7684,7 +7684,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Z6_Small";
+													value="rri_Z6_Small";
 												};
 											};
 											class Item2
@@ -7692,7 +7692,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ZH73";
+													value="rri_ZH73";
 												};
 											};
 											class Item3
@@ -7700,7 +7700,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_DP23";
+													value="rri_DP23";
 												};
 											};
 											class Item4
@@ -7708,7 +7708,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_DW32S";
+													value="rri_DW32S";
 												};
 											};
 											class Item5
@@ -7748,7 +7748,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_RPS6_D_Loaded";
+													value="rri_RPS6_D_Loaded";
 												};
 											};
 											class Item10
@@ -7756,7 +7756,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_RPS6";
+													value="rri_RPS6";
 												};
 											};
 											class Item11
@@ -7932,7 +7932,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_MED_Mag";
+													value="rri_MED_Mag";
 												};
 											};
 											class Item33
@@ -7940,7 +7940,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeBlack_impact";
+													value="rri_SmokeBlack_impact";
 												};
 											};
 											class Item34
@@ -7948,7 +7948,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeBlue_impact";
+													value="rri_SmokeBlue_impact";
 												};
 											};
 											class Item35
@@ -7956,7 +7956,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeGreen_impact";
+													value="rri_SmokeGreen_impact";
 												};
 											};
 											class Item36
@@ -7964,7 +7964,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeLightBlue_impact";
+													value="rri_SmokeLightBlue_impact";
 												};
 											};
 											class Item37
@@ -7972,7 +7972,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeOrange_impact";
+													value="rri_SmokeOrange_impact";
 												};
 											};
 											class Item38
@@ -7980,7 +7980,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokePink_impact";
+													value="rri_SmokePink_impact";
 												};
 											};
 											class Item39
@@ -7988,7 +7988,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokePurple_impact";
+													value="rri_SmokePurple_impact";
 												};
 											};
 											class Item40
@@ -7996,7 +7996,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeRed_impact";
+													value="rri_SmokeRed_impact";
 												};
 											};
 											class Item41
@@ -8004,7 +8004,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeWhite_impact";
+													value="rri_SmokeWhite_impact";
 												};
 											};
 											class Item42
@@ -8012,7 +8012,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeYellow_impact";
+													value="rri_SmokeYellow_impact";
 												};
 											};
 											class Item43
@@ -8020,7 +8020,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeBlack";
+													value="rri_SmokeBlack";
 												};
 											};
 											class Item44
@@ -8028,7 +8028,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeBlue";
+													value="rri_SmokeBlue";
 												};
 											};
 											class Item45
@@ -8036,7 +8036,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeGreen";
+													value="rri_SmokeGreen";
 												};
 											};
 											class Item46
@@ -8044,7 +8044,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeLightBlue";
+													value="rri_SmokeLightBlue";
 												};
 											};
 											class Item47
@@ -8052,7 +8052,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeOrange";
+													value="rri_SmokeOrange";
 												};
 											};
 											class Item48
@@ -8060,7 +8060,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokePink";
+													value="rri_SmokePink";
 												};
 											};
 											class Item49
@@ -8068,7 +8068,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokePurple";
+													value="rri_SmokePurple";
 												};
 											};
 											class Item50
@@ -8076,7 +8076,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeRed";
+													value="rri_SmokeRed";
 												};
 											};
 											class Item51
@@ -8084,7 +8084,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeWhite";
+													value="rri_SmokeWhite";
 												};
 											};
 											class Item52
@@ -8092,7 +8092,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SmokeYellow";
+													value="rri_SmokeYellow";
 												};
 											};
 											class Item53
@@ -8100,7 +8100,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_SonicDet";
+													value="rri_SonicDet";
 												};
 											};
 											class Item54
@@ -8108,7 +8108,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ThermalDetonator";
+													value="rri_ThermalDetonator";
 												};
 											};
 											class Item55
@@ -8116,7 +8116,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ThrowableCharge";
+													value="rri_ThrowableCharge";
 												};
 											};
 											class Item56
@@ -8124,7 +8124,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Clacker";
+													value="rri_Clacker";
 												};
 											};
 											class Item57
@@ -8132,7 +8132,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_AllKitTool";
+													value="rri_AllKitTool";
 												};
 											};
 											class Item58
@@ -8140,7 +8140,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_tech_spike";
+													value="rri_tech_spike";
 												};
 											};
 											class Item59
@@ -8148,7 +8148,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_datapad";
+													value="rri_datapad";
 												};
 											};
 											class Item60
@@ -8156,7 +8156,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item61
@@ -8164,7 +8164,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item62
@@ -8172,7 +8172,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_flags_blue";
+													value="rri_flags_blue";
 												};
 											};
 											class Item63
@@ -8180,7 +8180,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_flags_red";
+													value="rri_flags_red";
 												};
 											};
 											class Item64
@@ -8188,7 +8188,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_MicroDAGR";
+													value="rri_catTab_MicroDAGR";
 												};
 											};
 											class Item65
@@ -8196,7 +8196,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_mse6_packed";
+													value="rri_drones_mse6_packed";
 												};
 											};
 											class Item66
@@ -8204,7 +8204,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_mse6_gmc_packed";
+													value="rri_drones_mse6_gmc_packed";
 												};
 											};
 											class Item67
@@ -8212,7 +8212,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_MSE6_Spyro_packed";
+													value="rri_drones_MSE6_Spyro_packed";
 												};
 											};
 											class Item68
@@ -8220,7 +8220,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_paap_aa_packed";
+													value="rri_drones_paap_aa_packed";
 												};
 											};
 											class Item69
@@ -8228,7 +8228,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_paap_at_packed";
+													value="rri_drones_paap_at_packed";
 												};
 											};
 											class Item70
@@ -8236,7 +8236,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_prowler1500_packed";
+													value="rri_drones_prowler1500_packed";
 												};
 											};
 											class Item71
@@ -8244,7 +8244,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_drones_prowler500_packed";
+													value="rri_drones_prowler500_packed";
 												};
 											};
 											class Item72
@@ -8252,7 +8252,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_radio_repairkit";
+													value="rri_radio_repairkit";
 												};
 											};
 											class Item73
@@ -8260,7 +8260,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_CableTie_Light";
+													value="rri_CableTie_Light";
 												};
 											};
 											class Item74
@@ -8268,7 +8268,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_CableTie_Medium";
+													value="rri_CableTie_Medium";
 												};
 											};
 											class Item75
@@ -8276,7 +8276,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_CableTie_Heavy";
+													value="rri_CableTie_Heavy";
 												};
 											};
 											class Item76
@@ -8284,7 +8284,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item77
@@ -8292,7 +8292,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_TaserCartridge";
+													value="rri_TaserCartridge";
 												};
 											};
 											class Item78
@@ -8300,7 +8300,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_BactaPatch";
+													value="rri_BactaPatch";
 												};
 											};
 											class Item79
@@ -8308,7 +8308,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_BactaSpray";
+													value="rri_BactaSpray";
 												};
 											};
 											class Item80
@@ -8348,7 +8348,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item85
@@ -8420,7 +8420,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Symoxin";
+													value="rri_Symoxin";
 												};
 											};
 											class Item94
@@ -8428,7 +8428,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Vutalamine";
+													value="rri_Vutalamine";
 												};
 											};
 											class Item95
@@ -8540,7 +8540,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E10";
+													value="rri_factions_imp_E10";
 												};
 											};
 											class Item109
@@ -8548,7 +8548,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_E11";
+													value="rri_factions_imp_E11";
 												};
 											};
 											class Item110
@@ -8588,7 +8588,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Arkanian";
+													value="rri_Arkanian";
 												};
 											};
 											class Item115
@@ -8596,7 +8596,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_DP23_mag_slug";
+													value="rri_DP23_mag_slug";
 												};
 											};
 											class Item116
@@ -8620,7 +8620,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_RPS6_mag_HE";
+													value="rri_RPS6_mag_HE";
 												};
 											};
 											class Item119
@@ -8628,7 +8628,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_DW32S_mag";
+													value="rri_DW32S_mag";
 												};
 											};
 											class Item120
@@ -8652,7 +8652,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_stun_mag";
+													value="rri_stun_mag";
 												};
 											};
 											class Item123
@@ -8660,7 +8660,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_RPS6_mag_AT";
+													value="rri_RPS6_mag_AT";
 												};
 											};
 											class Item124
@@ -8684,7 +8684,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ion_mag";
+													value="rri_ion_mag";
 												};
 											};
 											class Item127
@@ -8700,7 +8700,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ZH73_mag";
+													value="rri_ZH73_mag";
 												};
 											};
 											class Item129
@@ -8708,7 +8708,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_factions_imp_Rifle_Red_Mag";
+													value="rri_factions_imp_Rifle_Red_Mag";
 												};
 											};
 											class Item130
@@ -8756,7 +8756,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_EE2_mag";
+													value="rri_EE2_mag";
 												};
 											};
 											class Item136
@@ -8764,7 +8764,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_DP23_mag";
+													value="rri_DP23_mag";
 												};
 											};
 											class Item137
@@ -8780,7 +8780,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Arkanian_Mag";
+													value="rri_Arkanian_Mag";
 												};
 											};
 											class Item139
@@ -8788,7 +8788,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Z6_Small_mag";
+													value="rri_Z6_Small_mag";
 												};
 											};
 											class Item140
@@ -8932,7 +8932,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_pointerIR_noModel";
+													value="rri_pointerIR_noModel";
 												};
 											};
 											class Item158
@@ -9036,7 +9036,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_flashlight_noModel";
+													value="rri_flashlight_noModel";
 												};
 											};
 											class Item171
@@ -9084,7 +9084,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_red";
+													value="rri_Holosight_red";
 												};
 											};
 											class Item177
@@ -9100,7 +9100,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRD_blu";
+													value="rri_HMRD_blu";
 												};
 											};
 											class Item179
@@ -9108,7 +9108,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRD_red";
+													value="rri_HMRD_red";
 												};
 											};
 											class Item180
@@ -9116,7 +9116,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_blu";
+													value="rri_HRCO_blu";
 												};
 											};
 											class Item181
@@ -9124,7 +9124,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_blu";
+													value="rri_HMRCO_blu";
 												};
 											};
 											class Item182
@@ -9132,7 +9132,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_red";
+													value="rri_HRCO_red";
 												};
 											};
 											class Item183
@@ -9148,7 +9148,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_grn";
+													value="rri_HRCO_grn";
 												};
 											};
 											class Item185
@@ -9156,7 +9156,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_red";
+													value="rri_HMRCO_red";
 												};
 											};
 											class Item186
@@ -9164,7 +9164,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_blu";
+													value="rri_Holosight_blu";
 												};
 											};
 											class Item187
@@ -9212,7 +9212,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_grn";
+													value="rri_Holosight_grn";
 												};
 											};
 											class Item193
@@ -9236,7 +9236,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_EE2_scope";
+													value="rri_EE2_scope";
 												};
 											};
 											class Item196
@@ -9252,7 +9252,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_grn";
+													value="rri_HMRCO_grn";
 												};
 											};
 											class Item198
@@ -9268,7 +9268,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRD_grn";
+													value="rri_HMRD_grn";
 												};
 											};
 											class Item200
@@ -9344,13 +9344,13 @@ class Mission
 				dynamicSimulation=1;
 			};
 			id=115;
-			type="mti_arsenal_fieldsupport";
+			type="rri_arsenal_fieldsupport";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="mti_arsenal_Arsenal_Preset";
-					expression="if (_value > 0) then {[_this, _value] call mti_arsenal_fnc_initArsenal;}";
+					property="rri_arsenal_Arsenal_Preset";
+					expression="if (_value > 0) then {[_this, _value] call rri_arsenal_fnc_initArsenal;}";
 					class Value
 					{
 						class data
@@ -9423,7 +9423,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="mti_factions_cis";
+							value="rri_factions_cis";
 						};
 					};
 				};
@@ -9926,7 +9926,7 @@ class Mission
 			{
 			};
 			id=175;
-			type="mti_capitalships_venator_occamsRazor";
+			type="rri_capitalships_venator_occamsRazor";
 			atlOffset=294.4538;
 		};
 	};

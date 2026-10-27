@@ -963,12 +963,12 @@ mti_boc_disabled = false;
 
 // MokTech Industries - catTab (UI)
 mti_catTab_ui_androidDesktopBackgroundMode = 0;
-mti_catTab_ui_androidDesktopBackgroundPreset = "\z\mti\addons\catTab_data\img\ui\desktop\classic\android_desktop_background_0_co.paa";
+mti_catTab_ui_androidDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\android_desktop_background_0_co.paa";
 mti_catTab_ui_androidDesktopColor = [0.239,0.863,0.517];
 mti_catTab_ui_androidDesktopCustomImageName = "android_desktop_background_co.jpg";
 mti_catTab_ui_enableCustomBackground = true;
 mti_catTab_ui_tabletDesktopBackgroundMode = 0;
-mti_catTab_ui_tabletDesktopBackgroundPreset = "\z\mti\addons\catTab_data\img\ui\desktop\classic\tablet_desktop_background_0_co.paa";
+mti_catTab_ui_tabletDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\tablet_desktop_background_0_co.paa";
 mti_catTab_ui_tabletDesktopColor = [0,0.443,0.348];
 mti_catTab_ui_tabletDesktopCustomImageName = "tablet_desktop_background_co.jpg";
 

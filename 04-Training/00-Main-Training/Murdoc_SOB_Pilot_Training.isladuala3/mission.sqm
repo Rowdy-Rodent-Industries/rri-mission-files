@@ -37,8 +37,8 @@ addons[]=
 {
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Ui_F",
-	"mti_common",
-	"mti_factions_cis",
+	"rri_common",
+	"rri_factions_cis",
 	"JLTS_characters_DroidArmor",
 	"A3_Characters_F_Common",
 	"3AS_Prop_Capital_Venator",
@@ -57,7 +57,7 @@ addons[]=
 	"JLTS_radios",
 	"ls_characters_clone_legacy",
 	"OPTRE_Vehicles_Cart",
-	"mti_modules",
+	"rri_modules",
 	"3AS_Prop_Terminals",
 	"lsb_props_holograms",
 	"3AS_Structures2_FlatShields",
@@ -96,14 +96,14 @@ class AddonsMetaData
 		};
 		class Item2
 		{
-			className="mti_common";
+			className="rri_common";
 			name="MokTech Industries - Common";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item3
 		{
-			className="mti_factions_cis";
+			className="rri_factions_cis";
 			name="MokTech Industries - CIS";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -210,7 +210,7 @@ class AddonsMetaData
 		};
 		class Item20
 		{
-			className="mti_modules";
+			className="rri_modules";
 			name="MokTech Industries - Modules";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -321,10 +321,10 @@ randomSeed=11349569;
 class ScenarioData
 {
 	author="CX-S-8613/92 ""Murdoc""";
-	overViewPicture="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
-	overViewPictureLocked="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPicture="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPictureLocked="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	onLoadMission="SOB Pilot Training by CX-M-Murdoc";
-	loadScreen="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	loadScreen="\z\rri\Addons\common\data\insignias\SOB_insignia_ca.paa";
 	briefing=0;
 	debriefing=0;
 	saving=0;
@@ -534,7 +534,7 @@ class Mission
 			name="marker_1";
 			text="LZ Alpha";
 			type="hd_pickup";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=2;
 		};
 		class Item2
@@ -559,7 +559,7 @@ class Mission
 			name="marker_2";
 			text="LZ Beta";
 			type="hd_pickup";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=4;
 			atlOffset=7.7724457e-05;
 		};
@@ -585,7 +585,7 @@ class Mission
 			name="marker_3";
 			text="LZ Charlie";
 			type="hd_pickup";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=6;
 		};
 		class Item6
@@ -623,7 +623,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=408;
-			type="mti_factions_cis_MAF_Gun";
+			type="rri_factions_cis_MAF_Gun";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item10
@@ -640,7 +640,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=412;
-			type="mti_factions_cis_MAF_Gun";
+			type="rri_factions_cis_MAF_Gun";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item11
@@ -658,7 +658,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=440;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item12
@@ -676,7 +676,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=446;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item13
@@ -694,7 +694,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=450;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item14
@@ -712,7 +712,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=454;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item15
@@ -730,7 +730,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=458;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item16
@@ -748,7 +748,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=462;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=9.5367432e-07;
 		};
 		class Item17
@@ -779,7 +779,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=726;
-			type="mti_factions_cis_MAF_Gun";
+			type="rri_factions_cis_MAF_Gun";
 		};
 		class Item20
 		{
@@ -795,7 +795,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=730;
-			type="mti_factions_cis_MAF_Gun";
+			type="rri_factions_cis_MAF_Gun";
 		};
 		class Item21
 		{
@@ -812,7 +812,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=758;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029373169;
 		};
 		class Item22
@@ -830,7 +830,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=762;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029563904;
 		};
 		class Item23
@@ -848,7 +848,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=766;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029373169;
 		};
 		class Item24
@@ -866,7 +866,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=770;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029182434;
 		};
 		class Item25
@@ -884,7 +884,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=774;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029277802;
 		};
 		class Item26
@@ -902,7 +902,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=778;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 			atlOffset=-0.00029468536;
 		};
 		class Item27
@@ -974,7 +974,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=803;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=1.9073486e-06;
 		};
 		class Item29
@@ -1043,7 +1043,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=806;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item31
 		{
@@ -1114,7 +1114,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=815;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=6.3987856;
 		};
 		class Item33
@@ -1186,7 +1186,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=818;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=0.30991077;
 		};
 		class Item35
@@ -1209,7 +1209,7 @@ class Mission
 					{
 					};
 					id=830;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -1224,7 +1224,7 @@ class Mission
 					{
 					};
 					id=831;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010177612;
 				};
 			};
@@ -1282,7 +1282,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=829;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 		};
 		class Item37
 		{
@@ -1304,7 +1304,7 @@ class Mission
 					{
 					};
 					id=834;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -1319,7 +1319,7 @@ class Mission
 					{
 					};
 					id=835;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010177612;
 				};
 			};
@@ -1377,7 +1377,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=833;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 		};
 		class Item39
 		{
@@ -1399,7 +1399,7 @@ class Mission
 					{
 					};
 					id=838;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -1414,7 +1414,7 @@ class Mission
 					{
 					};
 					id=839;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010177612;
 				};
 			};
@@ -1472,7 +1472,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=837;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 		};
 		class Item41
 		{
@@ -1542,7 +1542,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=841;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item43
 		{
@@ -1610,7 +1610,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=844;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item45
 		{
@@ -1679,7 +1679,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=847;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=10.000034;
 		};
 		class Item47
@@ -1752,7 +1752,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=850;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=9.9700356;
 		};
 		class Item49
@@ -1776,7 +1776,7 @@ class Mission
 					{
 					};
 					id=854;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -1791,7 +1791,7 @@ class Mission
 					{
 					};
 					id=855;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=1.9995365;
 				};
 				class Item2
@@ -1808,7 +1808,7 @@ class Mission
 					{
 					};
 					id=856;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=1.9995365;
 				};
 			};
@@ -1875,7 +1875,7 @@ class Mission
 			{
 			};
 			id=853;
-			type="mti_factions_cis_AAT_CIS";
+			type="rri_factions_cis_AAT_CIS";
 		};
 		class Item51
 		{
@@ -1898,7 +1898,7 @@ class Mission
 					{
 					};
 					id=859;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -1914,7 +1914,7 @@ class Mission
 					{
 					};
 					id=860;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=0.18000031;
 				};
 			};
@@ -1970,7 +1970,7 @@ class Mission
 			{
 			};
 			id=858;
-			type="mti_factions_cis_n99";
+			type="rri_factions_cis_n99";
 		};
 		class Item53
 		{
@@ -1993,7 +1993,7 @@ class Mission
 					{
 					};
 					id=863;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -2009,7 +2009,7 @@ class Mission
 					{
 					};
 					id=864;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=1.5660152;
 				};
 			};
@@ -2065,7 +2065,7 @@ class Mission
 			{
 			};
 			id=862;
-			type="mti_factions_cis_ast";
+			type="rri_factions_cis_ast";
 		};
 		class Item55
 		{
@@ -2074,7 +2074,7 @@ class Mission
 			name="marker_5";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=876;
 		};
 		class Item56
@@ -2084,7 +2084,7 @@ class Mission
 			name="marker_7";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=878;
 		};
 		class Item57
@@ -8544,8 +8544,8 @@ class Mission
 																	{
 																		class Attribute0
 																		{
-																			property="mti_common_resistance_stun";
-																			expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																			property="rri_common_resistance_stun";
+																			expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																			class Value
 																			{
 																				class data
@@ -8583,8 +8583,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -8596,8 +8596,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -8648,8 +8648,8 @@ class Mission
 																		};
 																		class Attribute8
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -8699,8 +8699,8 @@ class Mission
 																	{
 																		class Attribute0
 																		{
-																			property="mti_common_resistance_stun";
-																			expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																			property="rri_common_resistance_stun";
+																			expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																			class Value
 																			{
 																				class data
@@ -8738,8 +8738,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -8751,8 +8751,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -8803,8 +8803,8 @@ class Mission
 																		};
 																		class Attribute8
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -8854,8 +8854,8 @@ class Mission
 																	{
 																		class Attribute0
 																		{
-																			property="mti_common_resistance_stun";
-																			expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																			property="rri_common_resistance_stun";
+																			expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																			class Value
 																			{
 																				class data
@@ -8893,8 +8893,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -8906,8 +8906,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -8958,8 +8958,8 @@ class Mission
 																		};
 																		class Attribute8
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9009,8 +9009,8 @@ class Mission
 																	{
 																		class Attribute0
 																		{
-																			property="mti_common_resistance_stun";
-																			expression="_this setVariable [""mti_common_resistance_stun"", true];";
+																			property="rri_common_resistance_stun";
+																			expression="_this setVariable [""rri_common_resistance_stun"", true];";
 																			class Value
 																			{
 																				class data
@@ -9048,8 +9048,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -9061,8 +9061,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -9113,8 +9113,8 @@ class Mission
 																		};
 																		class Attribute8
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9234,8 +9234,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -9247,8 +9247,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9260,8 +9260,8 @@ class Mission
 																		};
 																		class Attribute5
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -9350,8 +9350,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -9363,8 +9363,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9376,8 +9376,8 @@ class Mission
 																		};
 																		class Attribute5
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -9466,8 +9466,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -9479,8 +9479,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9492,8 +9492,8 @@ class Mission
 																		};
 																		class Attribute5
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -9582,8 +9582,8 @@ class Mission
 																		};
 																		class Attribute3
 																		{
-																			property="mti_common_Pilot";
-																			expression="[_this, 'pilot', _value] call mti_common_fnc_setUnitTrait;";
+																			property="rri_common_Pilot";
+																			expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
 																			class Value
 																			{
 																				class data
@@ -9595,8 +9595,8 @@ class Mission
 																		};
 																		class Attribute4
 																		{
-																			property="mti_common_Group_Preset";
-																			expression="[_this, _value] call mti_common_fnc_initPlayer";
+																			property="rri_common_Group_Preset";
+																			expression="[_this, _value] call rri_common_fnc_initPlayer";
 																			class Value
 																			{
 																				class data
@@ -9608,8 +9608,8 @@ class Mission
 																		};
 																		class Attribute5
 																		{
-																			property="mti_common_resistance_ion";
-																			expression="_this setVariable [""mti_common_resistance_ion"", true];";
+																			property="rri_common_resistance_ion";
+																			expression="_this setVariable [""rri_common_resistance_ion"", true];";
 																			class Value
 																			{
 																				class data
@@ -9687,14 +9687,14 @@ class Mission
 														angles[]={0,0.78316981,0};
 													};
 													id=1570;
-													type="MTI_Module_SetServicingKart";
+													type="rri_Module_SetServicingKart";
 													atlOffset=6.1035156e-05;
 													class CustomAttributes
 													{
 														class Attribute0
 														{
-															property="mti_modules_repairOnly";
-															expression="_this setVariable ['mti_modules_repairOnly',_value,true];";
+															property="rri_modules_repairOnly";
+															expression="_this setVariable ['rri_modules_repairOnly',_value,true];";
 															class Value
 															{
 																class data
@@ -9733,14 +9733,14 @@ class Mission
 														angles[]={0,0.78316981,0};
 													};
 													id=1572;
-													type="MTI_Module_SetServicingKart";
+													type="rri_Module_SetServicingKart";
 													atlOffset=6.1035156e-05;
 													class CustomAttributes
 													{
 														class Attribute0
 														{
-															property="mti_modules_repairOnly";
-															expression="_this setVariable ['mti_modules_repairOnly',_value,true];";
+															property="rri_modules_repairOnly";
+															expression="_this setVariable ['rri_modules_repairOnly',_value,true];";
 															class Value
 															{
 																class data
@@ -9975,7 +9975,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1756;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=6.0118766;
 		};
 		class Item66
@@ -9985,7 +9985,7 @@ class Mission
 			name="marker_6";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1758;
 		};
 		class Item67
@@ -9995,7 +9995,7 @@ class Mission
 			name="marker_8";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1759;
 		};
 		class Item68
@@ -10005,7 +10005,7 @@ class Mission
 			name="marker_9";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1760;
 		};
 		class Item69
@@ -10015,7 +10015,7 @@ class Mission
 			name="marker_10";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1761;
 		};
 		class Item70
@@ -10025,7 +10025,7 @@ class Mission
 			name="marker_11";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1762;
 		};
 		class Item71
@@ -10035,7 +10035,7 @@ class Mission
 			name="marker_12";
 			text="Hostile AA";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=1763;
 		};
 		class Item72
@@ -10053,7 +10053,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1764;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item73
 		{
@@ -10070,7 +10070,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1765;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item74
 		{
@@ -10087,7 +10087,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1766;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item75
 		{
@@ -10104,7 +10104,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1767;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item76
 		{
@@ -10121,7 +10121,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1768;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item77
 		{
@@ -10138,7 +10138,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=1769;
-			type="mti_factions_cis_Vulture_AA";
+			type="rri_factions_cis_Vulture_AA";
 		};
 		class Item78
 		{
@@ -13588,7 +13588,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1785;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item81
 		{
@@ -13659,7 +13659,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1797;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.0069179535;
 		};
 		class Item83
@@ -13731,7 +13731,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1808;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.017957687;
 		};
 		class Item85
@@ -13754,7 +13754,7 @@ class Mission
 					{
 					};
 					id=1811;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -13769,7 +13769,7 @@ class Mission
 					{
 					};
 					id=1812;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010177612;
 				};
 			};
@@ -13827,7 +13827,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1810;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 		};
 		class Item87
 		{
@@ -13897,7 +13897,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1814;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item89
 		{
@@ -13967,7 +13967,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1817;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item91
 		{
@@ -14037,7 +14037,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1820;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item93
 		{
@@ -14104,7 +14104,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1823;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 		};
 		class Item95
 		{
@@ -14175,7 +14175,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1835;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item97
@@ -14247,7 +14247,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1846;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.34963417;
 		};
 		class Item99
@@ -14319,7 +14319,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1857;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.33245659;
 		};
 		class Item101
@@ -14391,7 +14391,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1859;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=0.31789684;
 		};
 		class Item103
@@ -14463,7 +14463,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1862;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=0.38375854;
 		};
 		class Item105
@@ -14533,7 +14533,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1865;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=2.6702881e-05;
 		};
 		class Item107
@@ -14605,7 +14605,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1877;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.003534317;
 		};
 		class Item109
@@ -14677,7 +14677,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1888;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.042730331;
 		};
 		class Item111
@@ -14749,7 +14749,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1899;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.0026655197;
 		};
 		class Item113
@@ -14821,7 +14821,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1910;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.020952225;
 		};
 		class Item115
@@ -14893,7 +14893,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1912;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item117
 		{
@@ -14965,7 +14965,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1915;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=8.5830688e-06;
 		};
 		class Item119
@@ -15035,7 +15035,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1918;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=1.9073486e-05;
 		};
 		class Item121
@@ -15107,7 +15107,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1930;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.07999897;
 		};
 		class Item123
@@ -15179,7 +15179,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1941;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item125
@@ -15251,7 +15251,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1952;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.07999897;
 		};
 		class Item127
@@ -15323,7 +15323,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1963;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item129
@@ -15395,7 +15395,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1968;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item131
@@ -15466,7 +15466,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1971;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item133
 		{
@@ -15537,7 +15537,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1974;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item135
@@ -15609,7 +15609,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=1977;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item137
@@ -15678,7 +15678,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1980;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item139
@@ -15747,7 +15747,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1983;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item141
@@ -15818,7 +15818,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=1995;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item143
 		{
@@ -15888,7 +15888,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2006;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item145
 		{
@@ -15959,7 +15959,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2017;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.079998016;
 		};
 		class Item147
@@ -16030,7 +16030,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2028;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item149
 		{
@@ -16100,7 +16100,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2039;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item151
 		{
@@ -16170,7 +16170,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2041;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item153
 		{
@@ -16240,7 +16240,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2044;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item155
 		{
@@ -16310,7 +16310,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2047;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item157
 		{
@@ -16377,7 +16377,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2050;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 		};
 		class Item159
 		{
@@ -16445,7 +16445,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2053;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=1.9073486e-06;
 		};
 		class Item161
@@ -16517,7 +16517,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2065;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item163
@@ -16589,7 +16589,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2076;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=1.1055422;
 		};
 		class Item165
@@ -16660,7 +16660,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2078;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-1.9073486e-06;
 		};
 		class Item167
@@ -16731,7 +16731,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2081;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=6.6757202e-06;
 		};
 		class Item169
@@ -16803,7 +16803,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2087;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=9.5367432e-07;
 		};
 		class Item171
@@ -16872,7 +16872,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2093;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item173
@@ -16942,7 +16942,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2096;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=1.1444092e-05;
 		};
 		class Item175
@@ -16960,7 +16960,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2098;
-			type="mti_factions_cis_Vulture_S";
+			type="rri_factions_cis_Vulture_S";
 			atlOffset=2.3841858e-05;
 		};
 		class Item176
@@ -16978,7 +16978,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2099;
-			type="mti_factions_cis_Vulture_Base";
+			type="rri_factions_cis_Vulture_Base";
 			atlOffset=-0.0095052719;
 		};
 		class Item177
@@ -16996,7 +16996,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2100;
-			type="mti_factions_cis_Vulture_S";
+			type="rri_factions_cis_Vulture_S";
 			atlOffset=1.9073486e-06;
 		};
 		class Item178
@@ -17014,7 +17014,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2101;
-			type="mti_factions_cis_hmp_gunship_black";
+			type="rri_factions_cis_hmp_gunship_black";
 			atlOffset=-5.2452087e-05;
 		};
 		class Item179
@@ -17032,7 +17032,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2102;
-			type="mti_factions_cis_MAF_Gun";
+			type="rri_factions_cis_MAF_Gun";
 			atlOffset=2.8610229e-06;
 		};
 		class Item180
@@ -17050,7 +17050,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=2103;
-			type="mti_factions_cis_hmp_a2a";
+			type="rri_factions_cis_hmp_a2a";
 		};
 		class Item181
 		{
@@ -17120,7 +17120,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2120;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item183
 		{
@@ -17192,7 +17192,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2123;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item185
 		{
@@ -17262,7 +17262,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2126;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 		};
 		class Item187
 		{
@@ -17331,7 +17331,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2129;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item189
@@ -17401,7 +17401,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2132;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item191
@@ -17471,7 +17471,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2135;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=9.5367432e-07;
 		};
 		class Item193
@@ -17542,7 +17542,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2138;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=0.51140213;
 		};
 		class Item195
@@ -17611,7 +17611,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2144;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=12.038509;
 		};
 		class Item197
@@ -17634,7 +17634,7 @@ class Mission
 					{
 					};
 					id=2148;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 				};
 				class Item1
 				{
@@ -17649,7 +17649,7 @@ class Mission
 					{
 					};
 					id=2149;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010177612;
 				};
 			};
@@ -17707,7 +17707,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2147;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 		};
 		class Item199
 		{
@@ -17730,7 +17730,7 @@ class Mission
 					{
 					};
 					id=2152;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-3.6239624e-05;
 				};
 				class Item1
@@ -17747,7 +17747,7 @@ class Mission
 					{
 					};
 					id=2153;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010292053;
 				};
 			};
@@ -17806,7 +17806,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2151;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 			atlOffset=-3.6239624e-05;
 		};
 		class Item201
@@ -17875,7 +17875,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2155;
-			type="mti_factions_cis_Naval_Gun";
+			type="rri_factions_cis_Naval_Gun";
 			atlOffset=5.9730997;
 		};
 		class Item203
@@ -17948,7 +17948,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2158;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=2.9563904e-05;
 		};
 		class Item205
@@ -18019,7 +18019,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2161;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=1.335144e-05;
 		};
 		class Item207
@@ -18089,7 +18089,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2164;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item209
@@ -18162,7 +18162,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2167;
-			type="mti_factions_cis_Scythe";
+			type="rri_factions_cis_Scythe";
 			atlOffset=-5.7220459e-06;
 		};
 		class Item211
@@ -18186,7 +18186,7 @@ class Mission
 					{
 					};
 					id=2171;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-1.2397766e-05;
 				};
 				class Item1
@@ -18203,7 +18203,7 @@ class Mission
 					{
 					};
 					id=2172;
-					type="mti_factions_cis_B1_Crew";
+					type="rri_factions_cis_B1_Crew";
 					atlOffset=-0.010185242;
 				};
 			};
@@ -18262,7 +18262,7 @@ class Mission
 				reportOwnPosition=1;
 			};
 			id=2170;
-			type="mti_factions_cis_GAT_AA";
+			type="rri_factions_cis_GAT_AA";
 			atlOffset=-1.2397766e-05;
 		};
 		class Item213
@@ -18334,7 +18334,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2202;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=2.6496117;
 		};
 		class Item215
@@ -18406,7 +18406,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2208;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.051035881;
 		};
 		class Item217
@@ -18478,7 +18478,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2211;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-0.00097751617;
 		};
 		class Item219
@@ -18550,7 +18550,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2219;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-3.3106289;
 		};
 		class Item221
@@ -18622,7 +18622,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2222;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-3.8146973e-06;
 		};
 		class Item223
@@ -18694,7 +18694,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2225;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-2.6702881e-05;
 		};
 		class Item225
@@ -18765,7 +18765,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2228;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 		};
 		class Item227
 		{
@@ -18836,7 +18836,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2231;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=-9.5367432e-07;
 		};
 		class Item229
@@ -18908,7 +18908,7 @@ class Mission
 				receiveRemoteTargets=1;
 			};
 			id=2234;
-			type="mti_factions_cis_FlakCannon";
+			type="rri_factions_cis_FlakCannon";
 			atlOffset=0.37926292;
 		};
 		class Item231
@@ -19641,7 +19641,7 @@ class Mission
 					{
 					};
 					id=2370;
-					type="mti_factions_cis_B1_Mortar_Assistant";
+					type="rri_factions_cis_B1_Mortar_Assistant";
 					atlOffset=0.5751586;
 				};
 				class Item1
@@ -19657,7 +19657,7 @@ class Mission
 					{
 					};
 					id=2372;
-					type="mti_factions_cis_B1_Mortar_Assistant";
+					type="rri_factions_cis_B1_Mortar_Assistant";
 					atlOffset=0.5760808;
 				};
 			};
@@ -19715,7 +19715,7 @@ class Mission
 			{
 			};
 			id=2369;
-			type="mti_factions_cis_Mortar";
+			type="rri_factions_cis_Mortar";
 			atlOffset=-1.335144e-05;
 		};
 		class Item235
@@ -19732,7 +19732,7 @@ class Mission
 			{
 			};
 			id=2371;
-			type="mti_factions_cis_Mortar";
+			type="rri_factions_cis_Mortar";
 			atlOffset=-1.6212463e-05;
 		};
 		class Item236
@@ -19742,7 +19742,7 @@ class Mission
 			name="marker_16";
 			markerType="RECTANGLE";
 			type="";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			fillName="DiagGrid";
 			a=2712.7129;
 			b=510.72699;
@@ -19756,7 +19756,7 @@ class Mission
 			name="marker_18";
 			markerType="RECTANGLE";
 			type="";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			fillName="DiagGrid";
 			a=1629.86;
 			b=237.22301;
@@ -19770,7 +19770,7 @@ class Mission
 			name="marker_19";
 			markerType="RECTANGLE";
 			type="";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			fillName="DiagGrid";
 			a=602.82501;
 			b=421.41901;
@@ -19896,7 +19896,7 @@ class Mission
 			name="marker_28";
 			text="Locate Mortar Pit";
 			type="hd_objective";
-			colorName="mti_common_ColorAviation";
+			colorName="rri_common_ColorAviation";
 			id=2388;
 			atlOffset=44.447998;
 		};

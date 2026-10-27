@@ -60,8 +60,8 @@ addons[]=
 	"ace_medical_treatment",
 	"ace_trenches",
 	"ace_fortify",
-	"mti_catTab_data",
-	"mti_medical",
+	"rri_catTab_data",
+	"rri_medical",
 	"FIG_Krieg",
 	"FIG_Tanith",
 	"A3_Weapons_F_Explosives",
@@ -269,13 +269,13 @@ class AddonsMetaData
 		};
 		class Item22
 		{
-			className="mti_catTab_data";
+			className="rri_catTab_data";
 			name="MokTech Industries - catTab (Data)";
 			author="MokTech Industries";
 		};
 		class Item23
 		{
-			className="mti_medical";
+			className="rri_medical";
 			name="MokTech Industries - Medical";
 			author="MokTech Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
@@ -917,12 +917,12 @@ class Mission
 									items=2;
 									class Item0
 									{
-										name="MTI_catTab_MicroDAGR";
+										name="rri_catTab_MicroDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 								};
@@ -970,7 +970,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -1201,7 +1201,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -1437,7 +1437,7 @@ class Mission
 									items=8;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -1698,7 +1698,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -1869,7 +1869,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=2;
 									};
 									class Item6
@@ -1956,7 +1956,7 @@ class Mission
 									items=20;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -1996,12 +1996,12 @@ class Mission
 									};
 									class Item8
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=6;
 									};
 									class Item9
 									{
-										name="MTI_Latheniol";
+										name="rri_Latheniol";
 										count=3;
 									};
 									class Item10
@@ -2011,7 +2011,7 @@ class Mission
 									};
 									class Item11
 									{
-										name="MTI_PBA";
+										name="rri_PBA";
 										count=3;
 									};
 									class Item12
@@ -2041,7 +2041,7 @@ class Mission
 									};
 									class Item17
 									{
-										name="MTI_Vutalamine";
+										name="rri_Vutalamine";
 										count=7;
 									};
 									class Item18
@@ -2246,7 +2246,7 @@ class Mission
 									items=7;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -2494,7 +2494,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -2725,7 +2725,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -2961,7 +2961,7 @@ class Mission
 									items=8;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -3223,7 +3223,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -3394,7 +3394,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=2;
 									};
 									class Item6
@@ -3481,7 +3481,7 @@ class Mission
 									items=20;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -3521,12 +3521,12 @@ class Mission
 									};
 									class Item8
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=6;
 									};
 									class Item9
 									{
-										name="MTI_Latheniol";
+										name="rri_Latheniol";
 										count=3;
 									};
 									class Item10
@@ -3536,7 +3536,7 @@ class Mission
 									};
 									class Item11
 									{
-										name="MTI_PBA";
+										name="rri_PBA";
 										count=3;
 									};
 									class Item12
@@ -3566,7 +3566,7 @@ class Mission
 									};
 									class Item17
 									{
-										name="MTI_Vutalamine";
+										name="rri_Vutalamine";
 										count=7;
 									};
 									class Item18
@@ -3772,7 +3772,7 @@ class Mission
 									items=7;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -3989,12 +3989,12 @@ class Mission
 									items=2;
 									class Item0
 									{
-										name="MTI_catTab_MicroDAGR";
+										name="rri_catTab_MicroDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 								};
@@ -4042,7 +4042,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -4298,7 +4298,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -4534,7 +4534,7 @@ class Mission
 									items=8;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -4795,7 +4795,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -4966,7 +4966,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=2;
 									};
 									class Item6
@@ -5053,7 +5053,7 @@ class Mission
 									items=20;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -5093,12 +5093,12 @@ class Mission
 									};
 									class Item8
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=6;
 									};
 									class Item9
 									{
-										name="MTI_Latheniol";
+										name="rri_Latheniol";
 										count=3;
 									};
 									class Item10
@@ -5108,7 +5108,7 @@ class Mission
 									};
 									class Item11
 									{
-										name="MTI_PBA";
+										name="rri_PBA";
 										count=3;
 									};
 									class Item12
@@ -5138,7 +5138,7 @@ class Mission
 									};
 									class Item17
 									{
-										name="MTI_Vutalamine";
+										name="rri_Vutalamine";
 										count=7;
 									};
 									class Item18
@@ -5343,7 +5343,7 @@ class Mission
 									items=7;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -61015,7 +61015,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -61055,7 +61055,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -61079,7 +61079,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -61215,7 +61215,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -61287,7 +61287,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -61335,7 +61335,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -61375,7 +61375,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -61383,7 +61383,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -61391,7 +61391,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -63537,7 +63537,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -63577,7 +63577,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -63601,7 +63601,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -63737,7 +63737,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -63809,7 +63809,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -63857,7 +63857,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -63897,7 +63897,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -63905,7 +63905,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -63913,7 +63913,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -66059,7 +66059,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -66099,7 +66099,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -66123,7 +66123,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -66259,7 +66259,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -66331,7 +66331,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -66379,7 +66379,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -66419,7 +66419,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -66427,7 +66427,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -66435,7 +66435,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -68581,7 +68581,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -68621,7 +68621,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -68645,7 +68645,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -68781,7 +68781,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -68853,7 +68853,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -68901,7 +68901,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -68941,7 +68941,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -68949,7 +68949,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -68957,7 +68957,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -71103,7 +71103,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -71143,7 +71143,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -71167,7 +71167,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -71303,7 +71303,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -71375,7 +71375,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -71423,7 +71423,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -71463,7 +71463,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -71471,7 +71471,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -71479,7 +71479,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -73625,7 +73625,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -73665,7 +73665,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -73689,7 +73689,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -73825,7 +73825,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -73897,7 +73897,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -73945,7 +73945,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -73985,7 +73985,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -73993,7 +73993,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -74001,7 +74001,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -76147,7 +76147,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -76187,7 +76187,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -76211,7 +76211,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -76347,7 +76347,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -76419,7 +76419,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -76467,7 +76467,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -76507,7 +76507,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -76515,7 +76515,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -76523,7 +76523,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -78669,7 +78669,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -78709,7 +78709,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -78733,7 +78733,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -78869,7 +78869,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -78941,7 +78941,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -78989,7 +78989,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -79029,7 +79029,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -79037,7 +79037,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -79045,7 +79045,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -81191,7 +81191,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -81231,7 +81231,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -81255,7 +81255,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -81391,7 +81391,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -81463,7 +81463,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -81511,7 +81511,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -81551,7 +81551,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -81559,7 +81559,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -81567,7 +81567,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -83713,7 +83713,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -83753,7 +83753,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -83777,7 +83777,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -83913,7 +83913,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -83985,7 +83985,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -84033,7 +84033,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -84073,7 +84073,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -84081,7 +84081,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -84089,7 +84089,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -86235,7 +86235,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Medisensor";
+													value="rri_Medisensor";
 												};
 											};
 											class Item215
@@ -86275,7 +86275,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_PBA";
+													value="rri_PBA";
 												};
 											};
 											class Item220
@@ -86299,7 +86299,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Nevastrin8";
+													value="rri_Nevastrin8";
 												};
 											};
 											class Item223
@@ -86435,7 +86435,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Latheniol";
+													value="rri_Latheniol";
 												};
 											};
 											class Item240
@@ -86507,7 +86507,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Deraformine";
+													value="rri_Deraformine";
 												};
 											};
 											class Item249
@@ -86555,7 +86555,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Batroxobine";
+													value="rri_Batroxobine";
 												};
 											};
 											class Item255
@@ -86595,7 +86595,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_tablet";
+													value="rri_catTab_tablet";
 												};
 											};
 											class Item260
@@ -86603,7 +86603,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_phone";
+													value="rri_catTab_phone";
 												};
 											};
 											class Item261
@@ -86611,7 +86611,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_catTab_HCam";
+													value="rri_catTab_HCam";
 												};
 											};
 											class Item262
@@ -87317,12 +87317,12 @@ class Mission
 									items=2;
 									class Item0
 									{
-										name="MTI_catTab_MicroDAGR";
+										name="rri_catTab_MicroDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 								};
@@ -87370,7 +87370,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -87600,7 +87600,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -87837,7 +87837,7 @@ class Mission
 									items=8;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -88099,7 +88099,7 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -88270,7 +88270,7 @@ class Mission
 									};
 									class Item5
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=2;
 									};
 									class Item6
@@ -88357,7 +88357,7 @@ class Mission
 									items=20;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1
@@ -88397,12 +88397,12 @@ class Mission
 									};
 									class Item8
 									{
-										name="MTI_Batroxobine";
+										name="rri_Batroxobine";
 										count=6;
 									};
 									class Item9
 									{
-										name="MTI_Latheniol";
+										name="rri_Latheniol";
 										count=3;
 									};
 									class Item10
@@ -88412,7 +88412,7 @@ class Mission
 									};
 									class Item11
 									{
-										name="MTI_PBA";
+										name="rri_PBA";
 										count=3;
 									};
 									class Item12
@@ -88442,7 +88442,7 @@ class Mission
 									};
 									class Item17
 									{
-										name="MTI_Vutalamine";
+										name="rri_Vutalamine";
 										count=7;
 									};
 									class Item18
@@ -88648,7 +88648,7 @@ class Mission
 									items=7;
 									class Item0
 									{
-										name="MTI_catTab_phone";
+										name="rri_catTab_phone";
 										count=1;
 									};
 									class Item1

@@ -2238,7 +2238,7 @@ class Mission
 												{
 													class uniform
 													{
-														typeName="MTI_Uniform_BX_Mokka";
+														typeName="rri_Uniform_BX_Mokka";
 														isBackpack=0;
 													};
 													map="ItemMap";
