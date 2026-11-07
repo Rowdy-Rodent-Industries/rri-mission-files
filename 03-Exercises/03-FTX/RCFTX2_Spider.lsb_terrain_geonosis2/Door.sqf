@@ -2,7 +2,7 @@ _target = _this select 0;
 _caller = _this select 1;
 _actionID = _this select 2;
 
-_requiredItem = "mti_armoury_mag_breaching_charge";
+_requiredItem = "rri_armoury_mag_breaching_charge";
 
 if (_caller isKindOf "Man") then {
 

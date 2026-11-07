@@ -128,9 +128,9 @@ force ace_dragging_skipContainerWeight = true;
 force ace_dragging_weightCoefficient = 0.25;
 
 // ACE Explosives
-force ace_explosives_customTimerDefault = 30;
-force ace_explosives_customTimerMax = 3600;
-force ace_explosives_customTimerMin = 5;
+force ace_explosives_custorrimerDefault = 30;
+force ace_explosives_custorrimerMax = 3600;
+force ace_explosives_custorrimerMin = 5;
 force ace_explosives_explodeOnDefuse = true;
 force ace_explosives_punishNonSpecialists = true;
 force ace_explosives_requireSpecialist = true;
@@ -1271,184 +1271,184 @@ force LRG_Zeus_Module_MedicalDummy = true;
 force LRG_Zeus_Module_SafeZone = true;
 
 // MokTech Industries - Admin Messages
-force mti_admin_messages_enable = true;
+force rri_admin_messages_enable = true;
 
 // MokTech Industries - Aircraft
-force mti_aircraft_cmColoursEnabled = true;
-force mti_aircraft_laatc_loadDistance = 25;
-force mti_aircraft_laatc_loadSpeed = 15;
-force mti_aircraft_requirePilot = true;
-force mti_aircraft_serviceTime_long = 60;
-force mti_aircraft_serviceTime_short = 20;
+force rri_aircraft_cmColoursEnabled = true;
+force rri_aircraft_laatc_loadDistance = 25;
+force rri_aircraft_laatc_loadSpeed = 15;
+force rri_aircraft_requirePilot = true;
+force rri_aircraft_serviceTime_long = 60;
+force rri_aircraft_serviceTime_short = 20;
 
 // MokTech Industries - Backpack on Chest
-force mti_boc_disabled = false;
+force rri_boc_disabled = false;
 
 // MokTech Industries - catTab (UI)
-mti_catTab_ui_androidDesktopBackgroundMode = 0;
-mti_catTab_ui_androidDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\android_desktop_background_0_co.paa";
-mti_catTab_ui_androidDesktopColor = [0.239,0.863,0.517];
-mti_catTab_ui_androidDesktopCustomImageName = "android_desktop_background_co.jpg";
-force mti_catTab_ui_enableCustomBackground = true;
-mti_catTab_ui_tabletDesktopBackgroundMode = 0;
-mti_catTab_ui_tabletDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\tablet_desktop_background_0_co.paa";
-mti_catTab_ui_tabletDesktopColor = [0,0.443,0.348];
-mti_catTab_ui_tabletDesktopCustomImageName = "tablet_desktop_background_co.jpg";
+rri_catTab_ui_androidDesktopBackgroundMode = 0;
+rri_catTab_ui_androidDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\android_desktop_background_0_co.paa";
+rri_catTab_ui_androidDesktopColor = [0.239,0.863,0.517];
+rri_catTab_ui_androidDesktopCustomImageName = "android_desktop_background_co.jpg";
+force rri_catTab_ui_enableCustomBackground = true;
+rri_catTab_ui_tabletDesktopBackgroundMode = 0;
+rri_catTab_ui_tabletDesktopBackgroundPreset = "\z\rri\addons\catTab_data\img\ui\desktop\classic\tablet_desktop_background_0_co.paa";
+rri_catTab_ui_tabletDesktopColor = [0,0.443,0.348];
+rri_catTab_ui_tabletDesktopCustomImageName = "tablet_desktop_background_co.jpg";
 
 // MokTech Industries - CIS
-force mti_factions_cis_b2_health = 120;
-force mti_factions_cis_deka_defaultShieldHealth = 750;
-force mti_factions_cis_deka_shieldCooldown = 80;
-force mti_factions_cis_deka_shieldTimeout = 60;
-force mti_factions_cis_dispenser_coolDown = 60;
+force rri_factions_cis_b2_health = 120;
+force rri_factions_cis_deka_defaultShieldHealth = 750;
+force rri_factions_cis_deka_shieldCooldown = 80;
+force rri_factions_cis_deka_shieldTimeout = 60;
+force rri_factions_cis_dispenser_coolDown = 60;
 
 // MokTech Industries - Common
-force mti_common_enableLogging = true;
-mti_common_loadoutWeightCheck = true;
-force mti_common_respawnUpdateEnabled = true;
-force mti_common_stanceChangeEnabled = true;
-force mti_common_teleporterDuration = 2;
-force mti_common_wsway_adjust = 0.9;
-force mti_common_wsway_enabled = true;
+force rri_common_enableLogging = true;
+rri_common_loadoutWeightCheck = true;
+force rri_common_respawnUpdateEnabled = true;
+force rri_common_stanceChangeEnabled = true;
+force rri_common_teleporterDuration = 2;
+force rri_common_wsway_adjust = 0.9;
+force rri_common_wsway_enabled = true;
 
 // MokTech Industries - CuffBreak
-force mti_cuffbreak_ai_enabled = true;
-force mti_cuffbreak_defaultAIEscapeStrength = 12;
-force mti_cuffbreak_enabled = true;
+force rri_cuffbreak_ai_enabled = true;
+force rri_cuffbreak_defaultAIEscapeStrength = 12;
+force rri_cuffbreak_enabled = true;
 
 // MokTech Industries - Doors
-force mti_doors_axe_time_coefficient = 1.25;
-force mti_doors_buttkick_default_strength = 4;
-force mti_doors_default_lockstrength = 20;
-force mti_doors_kick_default_strength = 20;
-force mti_doors_lockpick_fast_breakChance = 0.75;
-force mti_doors_lockpick_fast_coefficient = 0.5;
-force mti_doors_lockpick_fast_failChance = 0.25;
-force mti_doors_lockpick_slow_breakChance = 0.25;
-force mti_doors_lockpick_slow_failChance = 0.05;
+force rri_doors_axe_time_coefficient = 1.25;
+force rri_doors_buttkick_default_strength = 4;
+force rri_doors_default_lockstrength = 20;
+force rri_doors_kick_default_strength = 20;
+force rri_doors_lockpick_fast_breakChance = 0.75;
+force rri_doors_lockpick_fast_coefficient = 0.5;
+force rri_doors_lockpick_fast_failChance = 0.25;
+force rri_doors_lockpick_slow_breakChance = 0.25;
+force rri_doors_lockpick_slow_failChance = 0.05;
 
 // MokTech Industries - Equipment
-force mti_equipment_flagsEnabled = true;
-force mti_equipment_knifeEnabled = true;
-mti_equipment_nvg_customBrightness = 0;
-mti_equipment_nvg_customColour = [0.750812,0.750812,0.745176];
-mti_equipment_nvg_customContrast = 4.23882;
-mti_equipment_nvg_customEnabled = true;
-mti_equipment_nvg_customWhiteP = false;
+force rri_equipment_flagsEnabled = true;
+force rri_equipment_knifeEnabled = true;
+rri_equipment_nvg_customBrightness = 0;
+rri_equipment_nvg_customColour = [0.750812,0.750812,0.745176];
+rri_equipment_nvg_customContrast = 4.23882;
+rri_equipment_nvg_customEnabled = true;
+rri_equipment_nvg_customWhiteP = false;
 
 // MokTech Industries - Explosives
-force mti_explosives_advSetup_requireDemo = true;
-force mti_explosives_DP3_destroyAttached = true;
-force mti_explosives_magneticModeEnabled = true;
+force rri_explosives_advSetup_requireDemo = true;
+force rri_explosives_DP3_destroyAttached = true;
+force rri_explosives_magneticModeEnabled = true;
 
 // MokTech Industries - Field Defibrillator
-force mti_medical_defib_arrest_chance = 0.1;
-force mti_medical_defib_success_chance = 0.8;
+force rri_medical_defib_arrest_chance = 0.1;
+force rri_medical_defib_success_chance = 0.8;
 
 // MokTech Industries - Fortify
-force mti_fortify_allowSaving = true;
-force mti_fortify_fortifyAllowed = true;
-force mti_fortify_markObjectsOnMap = 1;
-force mti_fortify_recallTimeCoef = 0.25;
-force mti_fortify_timeCostCoefficient = 0.25;
-force mti_fortify_timeMax = 30;
-force mti_fortify_timeMin = 1.5;
+force rri_fortify_allowSaving = true;
+force rri_fortify_fortifyAllowed = true;
+force rri_fortify_markObjectsOnMap = 1;
+force rri_fortify_recallTimeCoef = 0.25;
+force rri_fortify_timeCostCoefficient = 0.25;
+force rri_fortify_timeMax = 30;
+force rri_fortify_timeMin = 1.5;
 
 // MokTech Industries - Hunger Games
-force mti_hungergames_enabled = false;
+force rri_hungergames_enabled = false;
 
 // MokTech Industries - Intercom
-force mti_intercom_maxRange = 100;
-force mti_intercom_systemEnabled = true;
+force rri_intercom_maxRange = 100;
+force rri_intercom_systemEnabled = true;
 
 // MokTech Industries - Katarn_OS
-force mti_katarnOS_intercom_enabled = true;
-force mti_katarnOS_lowLight_enabled = true;
-force mti_katarnOS_repulsorAngle = 90;
-force mti_katarnOS_repulsorRange = 10;
-force mti_katarnOS_shield_duration = 210;
-force mti_katarnOS_shield_maxCharges = 3;
+force rri_katarnOS_intercom_enabled = true;
+force rri_katarnOS_lowLight_enabled = true;
+force rri_katarnOS_repulsorAngle = 90;
+force rri_katarnOS_repulsorRange = 10;
+force rri_katarnOS_shield_duration = 210;
+force rri_katarnOS_shield_maxCharges = 3;
 
 // MokTech Industries - Logistics
-force mti_logistics_spawnCooldown = 45;
-force mti_logistics_spawnDuration = 25;
+force rri_logistics_spawnCooldown = 45;
+force rri_logistics_spawnDuration = 25;
 
 // MokTech Industries - Logistics (Cratefiller)
-force mti_logistics_cratefiller_param_cratefillerOverview = true;
-force mti_logistics_cratefiller_param_inventoryBlacklist = "[]";
-force mti_logistics_cratefiller_param_spawnAndDelete = true;
-force mti_logistics_cratefiller_param_usageRadius = 25;
+force rri_logistics_cratefiller_param_cratefillerOverview = true;
+force rri_logistics_cratefiller_param_inventoryBlacklist = "[]";
+force rri_logistics_cratefiller_param_spawnAndDelete = true;
+force rri_logistics_cratefiller_param_usageRadius = 25;
 
 // MokTech Industries - Medical
-force mti_medical_bactaPatch_timeMod = 1.25;
-force mti_medical_bactaSpray_timeMod = 0.5;
-force mti_medical_bodybagDisposalEnabled = true;
-force mti_medical_enableDiary = true;
-mti_medical_halothaneThreshold = 6;
-mti_medical_locationInhaler = 0;
-force mti_medical_locationMedisensor = 0;
-mti_medical_lungDamageEnabled = true;
-force mti_medical_medicRequired_Bandages = 1;
-force mti_medical_medicRequired_batroxobine = 1;
-force mti_medical_medicRequired_deraformine = 1;
-force mti_medical_medicRequired_glitteryl = 1;
-mti_medical_medicRequired_Inhaler = 0;
-force mti_medical_medicRequired_latheniol = 2;
-force mti_medical_medicRequired_Medisensor = 1;
-force mti_medical_medicRequired_nevastrin8 = 2;
-force mti_medical_medicRequired_pba = 1;
-force mti_medical_medicRequired_reorient = 1;
-force mti_medical_medicRequired_symoxin = 0;
-force mti_medical_medicRequired_vutalamine = 1;
-force mti_medical_nevastrin8_maxCount = 5;
-force mti_medical_pba_cpr_boost = 5;
-force mti_medical_pba_od_enabled = true;
-force mti_medical_pba_od_time = 90;
-force mti_medical_pba_pain_boost = 10;
-force mti_medical_pba_speed_boost = 1.2;
-force mti_medical_pba_sway_boost = 1.15;
-force mti_medical_showBloodLevel = true;
-force mti_medical_systemEnabled = true;
-mti_medical_timeInhaler = 5;
-force mti_medical_timeMedisensor = 10;
-force mti_medical_vutalamine_speed_reduction = 0.8;
-force mti_medical_vutalamine_sway_reduction = 0.75;
+force rri_medical_bactaPatch_timeMod = 1.25;
+force rri_medical_bactaSpray_timeMod = 0.5;
+force rri_medical_bodybagDisposalEnabled = true;
+force rri_medical_enableDiary = true;
+rri_medical_halothaneThreshold = 6;
+rri_medical_locationInhaler = 0;
+force rri_medical_locationMedisensor = 0;
+rri_medical_lungDamageEnabled = true;
+force rri_medical_medicRequired_Bandages = 1;
+force rri_medical_medicRequired_batroxobine = 1;
+force rri_medical_medicRequired_deraformine = 1;
+force rri_medical_medicRequired_glitteryl = 1;
+rri_medical_medicRequired_Inhaler = 0;
+force rri_medical_medicRequired_latheniol = 2;
+force rri_medical_medicRequired_Medisensor = 1;
+force rri_medical_medicRequired_nevastrin8 = 2;
+force rri_medical_medicRequired_pba = 1;
+force rri_medical_medicRequired_reorient = 1;
+force rri_medical_medicRequired_symoxin = 0;
+force rri_medical_medicRequired_vutalamine = 1;
+force rri_medical_nevastrin8_maxCount = 5;
+force rri_medical_pba_cpr_boost = 5;
+force rri_medical_pba_od_enabled = true;
+force rri_medical_pba_od_time = 90;
+force rri_medical_pba_pain_boost = 10;
+force rri_medical_pba_speed_boost = 1.2;
+force rri_medical_pba_sway_boost = 1.15;
+force rri_medical_showBloodLevel = true;
+force rri_medical_systemEnabled = true;
+rri_medical_timeInhaler = 5;
+force rri_medical_timeMedisensor = 10;
+force rri_medical_vutalamine_speed_reduction = 0.8;
+force rri_medical_vutalamine_sway_reduction = 0.75;
 
 // MokTech Industries - Pangolin
-force mti_pangolin_baseShieldRegen = 2;
-force mti_pangolin_baseShieldStrength = 100;
-force mti_pangolin_cqcShieldRegenBoost = 1.5;
-force mti_pangolin_cqcShieldTimeoutMod = 0.5;
-mti_pangolin_disableBreachVoice = false;
-force mti_pangolin_enabled = true;
-force mti_pangolin_medicShieldBoost = 1.25;
-force mti_pangolin_regenTimeoutBreach = 15;
-force mti_pangolin_regenTimeoutHit = 7;
+force rri_pangolin_baseShieldRegen = 2;
+force rri_pangolin_baseShieldStrength = 100;
+force rri_pangolin_cqcShieldRegenBoost = 1.5;
+force rri_pangolin_cqcShieldTimeoutMod = 0.5;
+rri_pangolin_disableBreachVoice = false;
+force rri_pangolin_enabled = true;
+force rri_pangolin_medicShieldBoost = 1.25;
+force rri_pangolin_regenTimeoutBreach = 15;
+force rri_pangolin_regenTimeoutHit = 7;
 
 // MokTech Industries - Tech
-force mti_tech_droidhack_firewalls = 3;
-force mti_tech_droidwave_firewalls = 2;
-force mti_tech_firewall_prompts = 3;
-force mti_tech_hackdance_firewalls = 20;
-force mti_tech_hackfear_firewalls = 2;
-force mti_tech_hackintel_firewalls = 1;
-force mti_tech_hackmines_firewalls = 1;
-force mti_tech_hackpacify_firewalls = 2;
-force mti_tech_hackremote_firewalls = 3;
+force rri_tech_droidhack_firewalls = 3;
+force rri_tech_droidwave_firewalls = 2;
+force rri_tech_firewall_prompts = 3;
+force rri_tech_hackdance_firewalls = 20;
+force rri_tech_hackfear_firewalls = 2;
+force rri_tech_hackintel_firewalls = 1;
+force rri_tech_hackmines_firewalls = 1;
+force rri_tech_hackpacify_firewalls = 2;
+force rri_tech_hackremote_firewalls = 3;
 
 // MokTech Industries - Weapons
-force mti_weapons_core_acid_duration = 300;
-force mti_weapons_core_airburstEnabledSettings = true;
-force mti_weapons_core_ion_charge_max = 5;
-force mti_weapons_core_ion_duration = 10;
-force mti_weapons_core_stun_charge_max = 5;
-force mti_weapons_core_stun_duration = 10;
-force mti_weapons_core_tracking_duration = 900;
-force mti_weapons_core_tracking_enabled = true;
-force mti_weapons_core_tracking_scanDelay = 5;
+force rri_weapons_core_acid_duration = 300;
+force rri_weapons_core_airburstEnabledSettings = true;
+force rri_weapons_core_ion_charge_max = 5;
+force rri_weapons_core_ion_duration = 10;
+force rri_weapons_core_stun_charge_max = 5;
+force rri_weapons_core_stun_duration = 10;
+force rri_weapons_core_tracking_duration = 900;
+force rri_weapons_core_tracking_enabled = true;
+force rri_weapons_core_tracking_scanDelay = 5;
 
 // MokTech Industries - Zeus
-force mti_zeus_ZEN_useTraits = true;
+force rri_zeus_ZEN_useTraits = true;
 
 // OPTRE Powered MJOLNIR
 OPTRE_HUD_ENEMY_COLOR = [1,0.2,0.2,1];
@@ -1764,10 +1764,10 @@ zen_faction_filter_0_LS_CIS = true;
 zen_faction_filter_0_LS_PIRATES = true;
 zen_faction_filter_0_lsi_redfor_strmc = true;
 zen_faction_filter_0_LSI_STRMC = true;
-zen_faction_filter_0_mti_factions_bns = true;
-zen_faction_filter_0_mti_factions_cis = true;
-zen_faction_filter_0_mti_factions_revanites = true;
-zen_faction_filter_0_mti_factions_sith_imperials = true;
+zen_faction_filter_0_rri_factions_bns = true;
+zen_faction_filter_0_rri_factions_cis = true;
+zen_faction_filter_0_rri_factions_revanites = true;
+zen_faction_filter_0_rri_factions_sith_imperials = true;
 zen_faction_filter_0_NCA_categoryPyrishiCollective = true;
 zen_faction_filter_0_NCA_categorySeparatistArmy = true;
 zen_faction_filter_0_O_DBA_CIS_F = true;
@@ -1810,7 +1810,7 @@ zen_faction_filter_1_LS_GAR = true;
 zen_faction_filter_1_LS_ORSF = true;
 zen_faction_filter_1_LS_REPNAVY = true;
 zen_faction_filter_1_lsb_turret = true;
-zen_faction_filter_1_mti_faction_SOB = true;
+zen_faction_filter_1_rri_faction_SOB = true;
 zen_faction_filter_1_NCA_categoryGalacticRepublic = true;
 zen_faction_filter_1_OPTRE_UNSC = true;
 zen_faction_filter_1_PhoenixArmoury_Faction = true;
@@ -1835,8 +1835,8 @@ zen_faction_filter_2_IND_L_F = true;
 zen_faction_filter_2_LS_MANDALORIAN = true;
 zen_faction_filter_2_LS_MEMEFOR = true;
 zen_faction_filter_2_LS_MERC = true;
-zen_faction_filter_2_mti_factions_jarotsad = true;
-zen_faction_filter_2_mti_factions_rebels = true;
+zen_faction_filter_2_rri_factions_jarotsad = true;
+zen_faction_filter_2_rri_factions_rebels = true;
 zen_faction_filter_2_OPTRE_CAA = true;
 zen_faction_filter_2_OPTRE_DME = true;
 zen_faction_filter_2_OPTRE_FC_Covenant = true;

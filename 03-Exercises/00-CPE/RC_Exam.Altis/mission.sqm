@@ -21,18 +21,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=376;
+		nextID=388;
 	};
 	class Camera
 	{
-		pos[]={6047.7583,255.16191,20994.857};
-		dir[]={-0.035173748,-0.93483871,-0.35347322};
-		up[]={-0.092565373,0.35513932,-0.93021852};
-		aside[]={-0.99514008,-7.8725861e-08,0.099025689};
+		pos[]={14614.1,21.160982,16723.494};
+		dir[]={-0.80325013,-0.59199965,0.065919369};
+		up[]={-0.59001899,0.80593616,0.048420273};
+		aside[]={0.081791975,9.1647962e-08,0.99665982};
 	};
 };
 binarizationWanted=0;
-sourceName="RC_Exam";
+sourceName="rc_exam";
 addons[]=
 {
 	"3AS_Prop_Crates",
@@ -244,8 +244,8 @@ class AddonsMetaData
 		class Item17
 		{
 			className="rri_factions_sob";
-			name="MokTech Industries - SOB";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - SOB";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item18
@@ -258,15 +258,15 @@ class AddonsMetaData
 		class Item19
 		{
 			className="rri_armoury_weapons";
-			name="MokTech Industries - Weapons";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Weapons";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item20
 		{
 			className="rri_armoury_explosives";
-			name="MokTech Industries - Explosives";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Explosives";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item21
@@ -297,8 +297,8 @@ class AddonsMetaData
 		class Item25
 		{
 			className="rri_armoury_equipment";
-			name="MokTech Industries - Equipment";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Equipment";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item26
@@ -311,15 +311,15 @@ class AddonsMetaData
 		class Item27
 		{
 			className="rri_medical";
-			name="MokTech Industries - Medical";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Medical";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item28
 		{
 			className="rri_armoury_props";
-			name="MokTech Industries - Props";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Props";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item29
@@ -394,28 +394,28 @@ class AddonsMetaData
 		{
 			className="sob_equipment";
 			name="SOB Aux - Equipment";
-			author="MokTech Industries";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item41
 		{
 			className="rri_factions_cis";
-			name="MokTech Industries - CIS";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - CIS";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item42
 		{
 			className="rri_factions_weapons_CIS";
 			name="Weapons_CIS";
-			author="MokTech Industries";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item43
 		{
 			className="rri_factions_weapons";
-			name="MokTech Industries - Weapons";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Weapons";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item44
@@ -441,8 +441,8 @@ class AddonsMetaData
 		class Item47
 		{
 			className="rri_modules";
-			name="MokTech Industries - Modules";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Modules";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item48
@@ -484,8 +484,8 @@ class AddonsMetaData
 		class Item54
 		{
 			className="rri_factions_common";
-			name="MokTech Industries - Common";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Common";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item55
@@ -509,15 +509,15 @@ class AddonsMetaData
 		class Item58
 		{
 			className="rri_factions_grenades";
-			name="MokTech Industries - Grenades";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Grenades";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item59
 		{
 			className="rri_factions_cishuman";
-			name="MokTech Industries - cishuman";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - cishuman";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item60
@@ -535,8 +535,8 @@ class AddonsMetaData
 		class Item62
 		{
 			className="rri_factions_commerce";
-			name="MokTech Industries - commerce";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - commerce";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item63
@@ -600,8 +600,8 @@ class AddonsMetaData
 		class Item73
 		{
 			className="rri_factions_cishuman_elite";
-			name="MokTech Industries - cishuman_elite";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - cishuman_elite";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item74
@@ -642,7 +642,7 @@ class AddonsMetaData
 		{
 			className="sob_compat";
 			name="SOB Aux - Compat";
-			author="MokTech Industries";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 		class Item81
@@ -654,8 +654,8 @@ class AddonsMetaData
 		class Item82
 		{
 			className="rri_armoury_vehicles";
-			name="MokTech Industries - Vehicles";
-			author="MokTech Industries";
+			name="Rowdy Rodent Industries - Vehicles";
+			author="Rowdy Rodent Industries";
 			url="https://discord.gg/Pu2gdBd7Te/";
 		};
 	};
@@ -709,6 +709,19 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -736,19 +749,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=0;
 				};
 			};
 		};
@@ -18371,37 +18371,11 @@ class Mission
 				position[]={6088.9512,164.92363,20958.922};
 			};
 			id=760;
-			type="rri_Module_CreateLockedIntel";
+			type="RRI_Module_CreateLockedIntel";
 			atlOffset=3.4673309;
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="rri_modules_targetVar";
-					expression="_this setVariable ['rri_modules_targetVar',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="console1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rri_modules_deleteOnCompletion";
-					expression="_this setVariable ['rri_modules_deleteOnCompletion',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute2
 				{
 					property="rri_modules_intelFailedTitle";
 					expression="_this setVariable ['rri_modules_intelFailedTitle',_value,true];";
@@ -18414,33 +18388,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="rri_modules_consequenceOnFailure";
-					expression="_this setVariable ['rri_modules_consequenceOnFailure',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="rri_modules_intelFailedText";
-					expression="_this setVariable ['rri_modules_intelFailedText',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute5
+				class Attribute1
 				{
 					property="rri_modules_intelSuccessTitle";
 					expression="_this setVariable ['rri_modules_intelSuccessTitle',_value,true];";
@@ -18453,20 +18401,20 @@ class Mission
 						};
 					};
 				};
-				class Attribute6
+				class Attribute2
 				{
-					property="rri_modules_password";
-					expression="_this setVariable ['rri_modules_password',_value,true];";
+					property="rri_modules_intelFailedText";
+					expression="_this setVariable ['rri_modules_intelFailedText',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="true";
+							value="";
 						};
 					};
 				};
-				class Attribute7
+				class Attribute3
 				{
 					property="rri_modules_intelSuccessText";
 					expression="_this setVariable ['rri_modules_intelSuccessText',_value,true];";
@@ -18476,6 +18424,58 @@ class Mission
 						{
 							singleType="STRING";
 							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rri_modules_deleteOnCompletion";
+					expression="_this setVariable ['rri_modules_deleteOnCompletion',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="rri_modules_consequenceOnFailure";
+					expression="_this setVariable ['rri_modules_consequenceOnFailure',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="rri_modules_targetVar";
+					expression="_this setVariable ['rri_modules_targetVar',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="console1";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="rri_modules_password";
+					expression="_this setVariable ['rri_modules_password',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
 						};
 					};
 				};
@@ -34701,7 +34701,7 @@ class Mission
 						};
 					};
 					id=1582;
-					type="rri_DroidBrain";
+					type="RRI_DroidBrain";
 					atlOffset=3.6158142;
 				};
 			};
@@ -34954,7 +34954,7 @@ class Mission
 						};
 					};
 					id=1620;
-					type="rri_DroidBrain";
+					type="RRI_DroidBrain";
 					atlOffset=0.2191925;
 				};
 			};
@@ -57647,6 +57647,19 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="ace_isEngineer";
 									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
@@ -57658,7 +57671,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="speaker";
 									expression="_this setspeaker _value;";
@@ -57671,7 +57684,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute3
+								class Attribute4
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -57681,19 +57694,6 @@ class Mission
 										{
 											singleType="SCALAR";
 											value=1.02;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="rri_common_Pilot";
-									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
 										};
 									};
 								};
@@ -57771,6 +57771,19 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="ace_isEngineer";
 									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
@@ -57782,7 +57795,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="speaker";
 									expression="_this setspeaker _value;";
@@ -57795,7 +57808,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute3
+								class Attribute4
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -57805,19 +57818,6 @@ class Mission
 										{
 											singleType="SCALAR";
 											value=1.02;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="rri_common_Pilot";
-									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
 										};
 									};
 								};
@@ -57895,6 +57895,19 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="ace_isEngineer";
 									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
@@ -57906,7 +57919,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="speaker";
 									expression="_this setspeaker _value;";
@@ -57919,7 +57932,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute3
+								class Attribute4
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -57929,19 +57942,6 @@ class Mission
 										{
 											singleType="SCALAR";
 											value=1.03;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="rri_common_Pilot";
-									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
 										};
 									};
 								};
@@ -58020,6 +58020,19 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="rri_common_Pilot";
+									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="ace_isEngineer";
 									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
@@ -58031,7 +58044,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="speaker";
 									expression="_this setspeaker _value;";
@@ -58044,7 +58057,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute3
+								class Attribute4
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -58054,19 +58067,6 @@ class Mission
 										{
 											singleType="SCALAR";
 											value=1.05;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="rri_common_Pilot";
-									expression="[_this, 'pilot', _value] call rri_common_fnc_setUnitTrait;";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
 										};
 									};
 								};
