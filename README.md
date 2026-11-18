@@ -9,13 +9,13 @@
 
 # Clone this drive
 - To first download this drive you need to "Clone it" onto your computer, to do that you're going to copy the link to the github here 
-    - [https://github.com/Rowdy-Rodent-Industries/rri_textures.git](https://github.com/Rowdy-Rodent-Industries/rri-mission-files.git)
+    - https://github.com/Rowdy-Rodent-Industries/rri-mission-files.git
 
 - Go to a blank place where you want to store this repository of textures, preferably one with some space as it's gonna take some space on your computer 
 - Click anywhere on the file explorer and click "Open GitBash Here"
     - If your on windows 11 you'll need to click "see more options" before you see it
 - In the git bash you will type the following 
-    - Git Clone https://github.com/Rowdy-Rodent-Industries/rri_textures.git
+    - Git Clone https://github.com/Rowdy-Rodent-Industries/rri-mission-files.git
     - Crtl + V Doesn't work on the bash so you'll need to paste it manually or Shift + Insert works too
 - From there you've cloned the drive!
 
